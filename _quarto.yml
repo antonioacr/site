@@ -10,7 +10,7 @@ website:
     right:
       - href: blog/index.qmd
       #- href: teaching/index.qmd
-      - href: publications.qmd
+      #- href: publications.qmd
 format:
   html:
     theme: [cosmo, styles.scss]
