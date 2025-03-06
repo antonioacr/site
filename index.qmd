@@ -9,18 +9,23 @@ about: # https://quarto.org/docs/websites/website-about.html
     - icon: envelope-at
       text: Email
       href: mailto:antoniocarlos.rodrigues@ufjf.br
+      target: _blank
     - icon: person-lines-fill
       text: Lattes
       href: http://lattes.cnpq.br/1322627918739691
+      target: _blank
     - icon: github
       text: Github
       href: https://github.com/antonioacr
+      target: _blank
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/rodrigues-acr/
+      target: _blank
     - icon: Bluesky
       text: Bluesky
       href: https://bsky.app/profile/antonioacr.bsky.social
+      target: _blank
 ---
 
 I am an Assistant Professor at the Federal University of Juiz de Fora with a PhD in Business Administration from the Federal University of Minas Gerais. I teach courses on program logistic, operations and supply chain management. I also work as a consultant, helping businesses optimize their performance. Outside of work, I’m a dedicated runner and have completed two marathons. I enjoy taking care of my plants, and relaxing with my dachshund, Heinz.
