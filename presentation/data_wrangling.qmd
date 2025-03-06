@@ -63,6 +63,7 @@ library(knitr)
 ## Importing data
 
 ```{r non-tidy-stocks, echo=FALSE}
+library(fivethirtyeight)
 stocks <- tibble(
   Date = as.Date("2009-01-01") + 0:4,
   `Boeing stock price` = paste("$", c("173.55", "172.61", "173.86", "170.77", "174.29"), sep = ""),
