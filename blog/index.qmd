@@ -1,6 +1,4 @@
 ---
 title: Blog
-listing: 
-  contents: /
-  type: table
+listing: default
 ---
