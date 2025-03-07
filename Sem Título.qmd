@@ -1,0 +1,10 @@
+---
+title: "Antonio Carlos Rodrigues"
+format: html
+navbar:
+  right:
+    - href: blog/index.qmd
+footer: Made with <i class="fab fa-r-project"></i> and Quarto"
+---
+
+Made with <i class="fab fa-r-project"></i> and [Quarto](https://quarto.org/)

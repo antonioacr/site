@@ -59,3 +59,5 @@ RODRIGUES, A. C. Response Surface Analysis: A Tutorial for Examining Linear and 
 LAGE, M. L. C., RODRIGUES, A. C. Pandelivery: Reflections on black delivery app workers experiences during COVID-19 in Brazil. **Gender, Work & Organization**, 28( S2), 434– 445, 2021. <https://doi.org/10.1111/gwao.12604>
 
 RODRIGUES, A. C.; MARTINS, R. S.; WANKE, P. F. ; SIEGLER, J. . Efficiency of Specialized 3PL Providers in an Emerging Economy. **International Journal of Production Economics**, v. 205C, p. 163-178, 2018. <https://doi.org/10.1016/j.ijpe.2018.09.012>
+
+

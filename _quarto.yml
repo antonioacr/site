@@ -5,7 +5,8 @@ project:
 website:
   title: "Antonio Carlos Rodrigues"
   open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
-  page-footer: "Made with R and Quarto"
+  page-footer: |
+   Made with <span class="iconify" data-icon="logos:r-project" data-inline="false"></span> and <a href="https://quarto.org/">Quarto</a>
   navbar:
     right:
       - href: blog/index.qmd
@@ -14,4 +15,7 @@ website:
 format:
   html:
     theme: [cosmo, styles.scss]
+    include-in-header:
+      - text: "<script src='https://code.iconify.design/2/2.0.0-rc2/iconify.min.js'></script>"
+
 

@@ -1,4 +1,5 @@
 ---
 title: Blog
 listing: default
+date-format: "DD-MM-YYYY"
 ---
