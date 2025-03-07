@@ -5,8 +5,7 @@ project:
 website:
   title: "Antonio Carlos Rodrigues"
   open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
-  page-footer: |
-   Made with <span class="iconify" data-icon="logos:r-project" data-inline="false"></span> and <a href="https://quarto.org/">Quarto</a>
+  page-footer: "Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)"
   navbar:
     right:
       - href: blog/index.qmd
