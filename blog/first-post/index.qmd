@@ -21,14 +21,21 @@ A plataforma cresceu rapidamente e se tornou a principal ferramenta de colabora�
 
 
 ``` {mermaid}
-timeline
-    title Evolução do Git e do GitHub
-    1991 : Linus Torvalds cria o Linux
-    2002 : Kernel do Linux adota BitKeeper
-    2005 : Fim do uso do BitKeeper e criação do Git por Linus Torvalds
-    2005 : Primeira versão pública do Git lançada
-    2006 : Junio Hamano assume a manutenção do Git
-    2008 : Fundação do GitHub por Preston-Werner, Wanstrath, Chacon e Hyett
-    2018 : Microsoft adquire o GitHub por US$ 7,5 bilhões
+gantt
+    title Evolução do Git
+    dateFormat  YYYY-MM-DD
+    axisFormat  %Y
+    section Desenvolvimento Inicial
+    Criação do Linux         :done, 1991-08-25, 1991-12-31
+    Adoção do BitKeeper      :done, 2002-01-01, 2002-12-31
+    Fim do uso do BitKeeper  :done, 2005-04-01, 2005-04-06
+    Criação do Git           :done, 2005-04-07, 2005-04-29
+    Primeira versão pública  :done, 2005-04-29, 2005-06-01
+    Manutenção por Hamano    :done, 2005-06-01, 2006-01-01
+    section Popularização
+    Adoção pelo Linux        :done, 2006-01-01, 2007-01-01
+    Criação do GitHub        :done, 2008-04-01, 2008-12-31
+    Microsoft adquire GitHub :done, 2018-06-04, 2018-12-31
+
 ```
 
