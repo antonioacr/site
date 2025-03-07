@@ -142,8 +142,8 @@
   {
     "objectID": "Sem Título.html",
     "href": "Sem Título.html",
-    "title": "Antonio Carlos Rodrigues",
+    "title": "Iconify Quarto Extension",
     "section": "",
-    "text": "Made with  and Quarto"
+    "text": "This extension allows you to use Iconify icons in your Quarto HTML documents. It provides an {{&lt; iconify &gt;}} shortcode:\n\nMandatory &lt;icon&gt;:\n{{&lt; iconify &lt;icon&gt; &gt;}}\n{{&lt; iconify &lt;set:icon&gt; &gt;}}\nOptional &lt;set&gt; (default is fluent-emoji) &lt;size=...&gt;, &lt;width=...&gt;, &lt;height=...&gt;, &lt;flip=...&gt;, &lt;rotate=...&gt;, &lt;title=...&gt;, &lt;label=...&gt;, and &lt;inline=...&gt;:\n{{&lt; iconify &lt;set&gt; &lt;icon&gt; &lt;size=...&gt; &lt;width=...&gt; &lt;height=...&gt; &lt;flip=...&gt; &lt;rotate=...&gt; &lt;title=...&gt; &lt;label=...&gt; &lt;inline=...&gt; &gt;}}\nIf &lt;size=...&gt; is defined, &lt;width=...&gt; and &lt;height=...&gt; are not used.\nSee https://docs.iconify.design/iconify-icon/ for more details.\n\nFor example:\n\n\n\n\n\n\n\nShortcode\nIcon\n\n\n\n\n{{&lt; iconify exploding-head &gt;}}\n\n\n\n{{&lt; iconify fluent-emoji exploding-head &gt;}}\n\n\n\n{{&lt; iconify fluent-emoji:exploding-head &gt;}}\n\n\n\n{{&lt; iconify exploding-head size=2xl &gt;}}\n\n\n\n{{&lt; iconify exploding-head size=5x rotate=180deg &gt;}}\n\n\n\n{{&lt; iconify exploding-head size=Huge &gt;}}\n\n\n\n{{&lt; iconify fluent-emoji-high-contrast 1st-place-medal &gt;}}\n\n\n\n{{&lt; iconify twemoji 1st-place-medal &gt;}}\n\n\n\n{{&lt; iconify line-md loading-alt-loop &gt;}}\n\n\n\n{{&lt; iconify fa6-brands apple width=50px height=10px rotate=90deg flip=vertical &gt;}}\n\n\n\n{{&lt; iconify simple-icons:quarto &gt;}}"
   }
 ]

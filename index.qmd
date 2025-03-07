@@ -22,8 +22,7 @@ about: # https://quarto.org/docs/websites/website-about.html
       text: LinkedIn
       href: https://www.linkedin.com/in/rodrigues-acr/
       target: _blank
-    - icon: Bluesky
-      text: Bluesky
+    - text: "{{< iconify ri:bluesky-fill >}} Bluesky"
       href: https://bsky.app/profile/antonioacr.bsky.social
       target: _blank
 ---

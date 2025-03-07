@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Antonio Carlos Rodrigues</title>
+<title>Antonio Carlos Rodrigues - Iconify Quarto Extension</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -39,6 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -58,10 +93,10 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script src="https://code.iconify.design/2/2.0.0-rc2/iconify.min.js"></script>
 
 
-<meta property="og:title" content="Antonio Carlos Rodrigues">
+<meta property="og:title" content="Antonio Carlos Rodrigues - Iconify Quarto Extension">
 <meta property="og:description" content="">
 <meta property="og:site-name" content="Antonio Carlos Rodrigues">
 </head>
@@ -104,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Antonio Carlos Rodrigues</h1>
+<h1 class="title">Iconify Quarto Extension</h1>
 </div>
 
 
@@ -119,7 +154,75 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Made with <i class="fab fa-r-project"></i> and <a href="https://quarto.org/">Quarto</a></p>
+<p>This extension allows you to use <a href="https://icon-sets.iconify.design/">Iconify</a> icons in your Quarto HTML documents. It provides an <code>{{&lt; iconify &gt;}}</code> shortcode:</p>
+<ul>
+<li><p>Mandatory <code>&lt;icon&gt;</code>:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>{{&lt; iconify <span class="kw">&lt;icon&gt;</span> &gt;}}</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>{{&lt; iconify <span class="kw">&lt;set:icon&gt;</span> &gt;}}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>Optional <code>&lt;set&gt;</code> (default is <code>fluent-emoji</code>) <code>&lt;size=...&gt;</code>, <code>&lt;width=...&gt;</code>, <code>&lt;height=...&gt;</code>, <code>&lt;flip=...&gt;</code>, <code>&lt;rotate=...&gt;</code>, <code>&lt;title=...&gt;</code>, <code>&lt;label=...&gt;</code>, and <code>&lt;inline=...&gt;</code>:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>{{&lt; iconify <span class="kw">&lt;set&gt;</span> <span class="kw">&lt;icon&gt;</span> &lt;size=...&gt; &lt;width=...&gt; &lt;height=...&gt; &lt;flip=...&gt; &lt;rotate=...&gt; &lt;title=...&gt; &lt;label=...&gt; &lt;inline=...&gt; &gt;}}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>If <code>&lt;size=...&gt;</code> is defined, <code>&lt;width=...&gt;</code> and <code>&lt;height=...&gt;</code> are not used.<br>
+See <a href="https://docs.iconify.design/iconify-icon/" class="uri">https://docs.iconify.design/iconify-icon/</a> for more details.</p></li>
+</ul>
+<p>For example:</p>
+<table class="table">
+<colgroup>
+<col style="width: 55%">
+<col style="width: 44%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Shortcode</th>
+<th>Icon</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>{{&lt; iconify exploding-head &gt;}}</code></td>
+<td><p><iconify-icon role="img" inline="" icon="fluent-emoji:exploding-head" aria-label="Icon exploding-head from fluent-emoji Iconify.design set." title="Icon exploding-head from fluent-emoji Iconify.design set."></iconify-icon></p></td>
+</tr>
+<tr class="even">
+<td><code>{{&lt; iconify fluent-emoji exploding-head &gt;}}</code></td>
+<td><p><iconify-icon role="img" inline="" icon="fluent-emoji:exploding-head" aria-label="Icon exploding-head from fluent-emoji Iconify.design set." title="Icon exploding-head from fluent-emoji Iconify.design set."></iconify-icon></p></td>
+</tr>
+<tr class="odd">
+<td><code>{{&lt; iconify fluent-emoji:exploding-head &gt;}}</code></td>
+<td><p><iconify-icon role="img" inline="" icon="fluent-emoji:exploding-head" aria-label="Icon exploding-head from fluent-emoji Iconify.design set." title="Icon exploding-head from fluent-emoji Iconify.design set."></iconify-icon></p></td>
+</tr>
+<tr class="even">
+<td><code>{{&lt; iconify exploding-head size=2xl &gt;}}</code></td>
+<td><p><iconify-icon role="img" inline="" icon="fluent-emoji:exploding-head" style="font-size: 2em;" aria-label="Icon exploding-head from fluent-emoji Iconify.design set." title="Icon exploding-head from fluent-emoji Iconify.design set."></iconify-icon></p></td>
+</tr>
+<tr class="odd">
+<td><code>{{&lt; iconify exploding-head size=5x rotate=180deg &gt;}}</code></td>
+<td><p><iconify-icon role="img" inline="" icon="fluent-emoji:exploding-head" style="font-size: 5em;" aria-label="Icon exploding-head from fluent-emoji Iconify.design set." title="Icon exploding-head from fluent-emoji Iconify.design set." rotate="180deg"></iconify-icon></p></td>
+</tr>
+<tr class="even">
+<td><code>{{&lt; iconify exploding-head size=Huge &gt;}}</code></td>
+<td><p><iconify-icon role="img" inline="" icon="fluent-emoji:exploding-head" style="font-size: 2.5em;" aria-label="Icon exploding-head from fluent-emoji Iconify.design set." title="Icon exploding-head from fluent-emoji Iconify.design set."></iconify-icon></p></td>
+</tr>
+<tr class="odd">
+<td><code>{{&lt; iconify fluent-emoji-high-contrast 1st-place-medal &gt;}}</code></td>
+<td><p><iconify-icon role="img" inline="" icon="fluent-emoji-high-contrast:1st-place-medal" aria-label="Icon 1st-place-medal from fluent-emoji-high-contrast Iconify.design set." title="Icon 1st-place-medal from fluent-emoji-high-contrast Iconify.design set."></iconify-icon></p></td>
+</tr>
+<tr class="even">
+<td><code>{{&lt; iconify twemoji 1st-place-medal &gt;}}</code></td>
+<td><p><iconify-icon role="img" inline="" icon="twemoji:1st-place-medal" aria-label="Icon 1st-place-medal from twemoji Iconify.design set." title="Icon 1st-place-medal from twemoji Iconify.design set."></iconify-icon></p></td>
+</tr>
+<tr class="odd">
+<td><code>{{&lt; iconify line-md loading-alt-loop &gt;}}</code></td>
+<td><p><iconify-icon role="img" inline="" icon="line-md:loading-alt-loop" aria-label="Icon loading-alt-loop from line-md Iconify.design set." title="Icon loading-alt-loop from line-md Iconify.design set."></iconify-icon></p></td>
+</tr>
+<tr class="even">
+<td><code>{{&lt; iconify fa6-brands apple width=50px height=10px rotate=90deg flip=vertical &gt;}}</code></td>
+<td><p><iconify-icon role="img" inline="" icon="fa6-brands:apple" aria-label="Icon apple from fa6-brands Iconify.design set." title="Icon apple from fa6-brands Iconify.design set." width="50px" flip="vertical" rotate="90deg"></iconify-icon></p></td>
+</tr>
+<tr class="odd">
+<td><code>{{&lt; iconify simple-icons:quarto &gt;}}</code></td>
+<td><p><iconify-icon role="img" inline="" icon="simple-icons:quarto" aria-label="Icon quarto from simple-icons Iconify.design set." title="Icon quarto from simple-icons Iconify.design set."></iconify-icon></p></td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -363,7 +466,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       &nbsp;
     </div>   
-    <div class="nav-footer-center">Made with and <a href="https://quarto.org/">Quarto</a></div>
+    <div class="nav-footer-center">Made with <iconify-icon role="img" inline="" icon="ri:bluesky-fill" aria-label="Icon bluesky-fill from ri Iconify.design set." title="Icon bluesky-fill from ri Iconify.design set."></iconify-icon> and <a href="https://quarto.org/">Quarto</a></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
