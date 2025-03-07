@@ -39,3 +39,36 @@ gantt
 
 ```
 
+# O que é Git e para que serve?
+
+O Git é um sistema de controle de versões distribuído, amplamente utilizado no desenvolvimento de software para gerenciar e acompanhar alterações no código-fonte ao longo do tempo. Criado em 2005 por Linus Torvalds, o mesmo desenvolvedor do núcleo do Linux, o Git surgiu da necessidade de uma ferramenta eficiente que permitisse a colaboração entre múltiplos desenvolvedores de forma distribuída e segura. 
+
+
+Principais funcionalidades do Git:
+
+- Controle de Versões: Permite registrar e gerenciar o histórico de alterações de arquivos, facilitando a identificação de modificações específicas e a reversão para versões anteriores, se necessário.
+
+- Desenvolvimento Colaborativo: Facilita o trabalho simultâneo de diversos desenvolvedores em um mesmo projeto, permitindo a criação de ramificações (branches) independentes que podem ser posteriormente integradas ao código principal.
+
+- Distribuição e Descentralização: Cada cópia de um repositório Git é completa e independente, eliminando a necessidade de um servidor central e aumentando a robustez contra falhas.
+
+- Desempenho e Eficiência: Projetado para ser rápido e eficiente, o Git lida com projetos de qualquer escala, desde pequenos scripts até grandes sistemas com milhões de linhas de código.
+
+Além do desenvolvimento de software, o Git é utilizado em diversas áreas que requerem controle de versão, como na gestão de documentos, criação de conteúdo e até mesmo na manutenção de configurações de sistemas. Sua flexibilidade e robustez o tornaram uma ferramenta essencial para equipes que buscam eficiência e organização em seus processos de desenvolvimento e colaboração.
+
+# Eu não sou desenvolvedor; por que deveria criar uma conta no GitHub?
+
+Embora o GitHub seja amplamente reconhecido como uma plataforma para desenvolvedores hospedarem e colaborarem em código, seus recursos vão além do desenvolvimento de software e podem ser vantajosos para profissionais de diversas áreas.
+
+Benefícios de uma conta no GitHub para não desenvolvedores:
+
+- Vitrine de Projetos e Portfólio Profissional: O GitHub permite que usuários exibam seus trabalhos publicamente, funcionando como uma vitrine para projetos pessoais ou profissionais. Essa exposição pode ser especialmente útil para designers, escritores, pesquisadores e outros profissionais que desejam compartilhar e documentar suas realizações.
+
+- Criação de Páginas Pessoais com GitHub Pages: Através do serviço GitHub Pages, é possível criar sites pessoais ou páginas para projetos sem a necessidade de hospedagem externa. Utilizando arquivos HTML, Markdown ou geradores de sites estáticos como o Jekyll, usuários podem desenvolver portfólios, blogs ou sites informativos de maneira simplificada. 
+
+
+- Participação em Comunidades e Projetos Open Source: O GitHub abriga uma vasta gama de projetos de código aberto e comunidades dedicadas a diferentes tópicos. Mesmo sem habilidades de programação, você pode contribuir com documentação, traduções, sugestões e discussões construtivas.
+
+- Desenvolvimento Profissional e Networking: Manter um perfil ativo no GitHub pode demonstrar envolvimento com tecnologias e metodologias modernas, o que é valorizado em diversos setores. Além disso, a plataforma facilita a conexão com profissionais de todo o mundo, ampliando sua rede de contatos e oportunidades de colaboração.
+
+Em suma, o GitHub não é exclusivo para desenvolvedores. Profissionais de diferentes áreas podem aproveitar seus recursos para colaborar, aprender e se conectar com comunidades globais, enriquecendo suas práticas profissionais e pessoais.
