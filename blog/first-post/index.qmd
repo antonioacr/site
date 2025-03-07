@@ -1,16 +1,25 @@
 ---
-title: "First Post"
-description: "Post description for first post"
-author: "Alicia"
-date: "5/22/2021"
+title: "Primeiros passos no GitHub: criando sua conta"
+description: "Um tutorial básico para você ingressar na comunidade GitHub"
+author: "Antonio Rodrigues"
+date: "06/03/2025"
 image: "cover.jpg"
 categories:
   - Science
   - Technology
 ---
 
+# História do Git e do GitHub
+
+O Git foi criado em 2005 por Linus Torvalds, o mesmo criador do Linux, como uma resposta à necessidade da comunidade de desenvolvimento do kernel do Linux por um sistema de controle de versão distribuído eficiente e confiável. Antes disso, o projeto Linux utilizava o BitKeeper, uma ferramenta proprietária que facilitava o gerenciamento do código-fonte distribuído. No entanto, divergências entre a empresa detentora do BitKeeper e a comunidade do Linux levaram à revogação do acesso gratuito ao software, forçando Torvalds a buscar uma alternativa.
+
+Diante dessa necessidade, Torvalds desenvolveu o Git, priorizando três características essenciais: velocidade, suporte ao desenvolvimento distribuído e integridade dos dados. A primeira versão pública do Git foi lançada em abril de 2005 e, rapidamente, o sistema foi adotado pela comunidade de código aberto, tornando-se a principal ferramenta para controle de versão.
+
+Com o crescimento do Git, em 2008, Tom Preston-Werner, Chris Wanstrath, Scott Chacon e PJ Hyett fundaram o GitHub, uma plataforma baseada no Git para facilitar a hospedagem, colaboração e gerenciamento de projetos de software. O GitHub se destacou ao oferecer uma interface intuitiva e recursos que simplificavam o desenvolvimento colaborativo, como pull requests, forks e issues.
+
+A plataforma cresceu rapidamente e se tornou a principal ferramenta de colaboração para desenvolvedores e empresas. Seu sucesso atraiu grandes investimentos e, em 2018, o GitHub foi adquirido pela Microsoft por US\$ 7,5 bilhões, consolidando-se como o maior repositório de código-fonte do mundo. Hoje, o GitHub é utilizado por milhões de desenvolvedores e organizações, desempenhando um papel fundamental no avanço da tecnologia e da inovação.
+
 ```{r}
-```{mermaid}
 gantt
     title Evolução do Git
     dateFormat  YYYY-MM-DD
@@ -27,10 +36,5 @@ gantt
     Criação do GitHub        :done, 2008-04-01, 2008-12-31
     Microsoft adquire GitHub :done, 2018-06-04, 2018-12-31
 
+
 ```
-
-Sed risus ultricies tristique nulla aliquet. Neque volutpat ac tincidunt vitae semper quis lectus nulla.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sed faucibus turpis in eu mi bibendum neque. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu. Velit sed ullamcorper morbi tincidunt ornare massa. Sagittis id consectetur purus ut faucibus pulvinar elementum integer. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Lobortis feugiat vivamus at augue eget arcu. Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Mauris a diam maecenas sed enim ut sem viverra aliquet. Enim ut tellus elementum sagittis vitae et leo duis. Molestie at elementum eu facilisis sed odio morbi quis commodo. Sapien pellentesque habitant morbi tristique senectus. Quam vulputate dignissim suspendisse in est. Nulla pellentesque dignissim enim sit amet venenatis urna cursus eget.
-
-Velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Tortor at auctor urna nunc id. Sit amet consectetur adipiscing elit duis tristique sollicitudin. Aliquet nibh praesent tristique magna sit amet purus. Tristique senectus et netus et malesuada fames ac turpis. Hac habitasse platea dictumst quisque. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Ultrices tincidunt arcu non sodales neque sodales ut etiam. Iaculis at erat pellentesque adipiscing. Cras tincidunt lobortis feugiat vivamus. Nisi est sit amet facilisis magna etiam. Pharetra pharetra massa massa ultricies mi quis hendrerit. Vitae sapien pellentesque habitant morbi tristique senectus. Ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae.
