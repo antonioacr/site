@@ -3,7 +3,7 @@ title: "Primeiros passos no GitHub: criando sua conta"
 description: "Um tutorial básico para você ingressar na comunidade GitHub"
 author: "Antonio Rodrigues"
 date: "03/06/2025"
-image: "cover.jpg"
+image: "cover.jpeg"
 categories:
   - Science
   - Technology
