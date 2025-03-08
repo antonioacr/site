@@ -27,7 +27,7 @@ about: # https://quarto.org/docs/websites/website-about.html
       target: _blank
 ---
 
-I am an Assistant Professor at the Federal University of Juiz de Fora with a PhD in Business Administration from the Federal University of Minas Gerais. I teach courses on program logistic, operations and supply chain management. I also work as a consultant, helping businesses optimize their performance. Outside of work, I’m a dedicated runner and have completed two marathons. I enjoy taking care of my plants, and relaxing with my dachshund, Heinz.
+I am an Assistant Professor at the Federal University of Juiz de Fora with a PhD in Business Administration from the Federal University of Minas Gerais. I teach courses on logistics, operations, and supply chain management. I also work as a consultant, helping businesses optimize their performance.  Outside of work, I am a dedicated runner and have completed two marathons. I enjoy taking care of my plants, and I also have a dachshund named Heinz.
 
 ## Education
 
@@ -46,17 +46,3 @@ I am an Assistant Professor at the Federal University of Juiz de Fora with a PhD
 **Federal University of Jequitinhonha e Mucuri** \| Assistant Professor \| 2013 - 2015 :brazil:
 
 **Federal University of Viçosa** \| Temporary Professor \| 2012 - 2013 :brazil:
-
-## Select publication
-
-RODRIGUES, A. C.; MACEDO, R. C.; MARTINS, R. S. Technological drivers of dry port efficiency in Brazil. **Revista de Gestão da USP**, v. 1, p. 10-11, 2023. <https://doi.org/10.1108/REGE-03-2021-0052>
-
-RODRIGUES, A. C.; MARTINS, R. S. The Effects of Dependence on Brazilian Third-Party Logistics Satisfaction. **Revista de Administração Contemporânea**, v. 26, n. 1, p. e200380, 2022. <https://doi.org/10.1590/1982-7849rac2022200380.en>
-
-RODRIGUES, A. C. Response Surface Analysis: A Tutorial for Examining Linear and Curvilinear Effects. **Revista de Administração Contemporânea**, v. 25, n. 6, p. e200293, 6 abr. 2021. <https://doi.org/10.1590/1982-7849rac2021200293.en>
- 
-LAGE, M. L. C., RODRIGUES, A. C. Pandelivery: Reflections on black delivery app workers experiences during COVID-19 in Brazil. **Gender, Work & Organization**, 28( S2), 434– 445, 2021. <https://doi.org/10.1111/gwao.12604>
-
-RODRIGUES, A. C.; MARTINS, R. S.; WANKE, P. F. ; SIEGLER, J. . Efficiency of Specialized 3PL Providers in an Emerging Economy. **International Journal of Production Economics**, v. 205C, p. 163-178, 2018. <https://doi.org/10.1016/j.ijpe.2018.09.012>
-
-
