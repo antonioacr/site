@@ -1,5 +1,5 @@
 ---
-title: "Por que você deve aprender Git se está começando em Ciência de Dados"
+title: "Por que você deveria ter uma conta no GitHub, se está começando em Ciência de Dados"
 description: "Improve your chances of getting noticed with these tips"
 author: "Antonio Rodrigues"
 date: "03/06/2025"
@@ -11,7 +11,6 @@ categories:
   - Carreira
 toc: true
 ---
-## Por que Todo Profissional Deveria Ter uma Conta no GitHub, Mesmo Sem Ser Desenvolvedor?
 
 Em um mundo cada vez mais digital, onde a troca de ideias e a colaboração online são essenciais, o GitHub se destaca como uma plataforma poderosa para profissionais de diversas áreas. Embora seja tradicionalmente associado a desenvolvedores de software, as funcionalidades do GitHub vão muito além disso, tornando-se uma ferramenta valiosa para designers, pesquisadores, escritores e muitos outros. Se você ainda acha que o GitHub é exclusivo para quem escreve código, é hora de repensar essa ideia. Neste artigo, vamos explorar como você, seja qual for sua área de atuação, pode aproveitar o GitHub para impulsionar sua carreira e se destacar no mercado.
 
