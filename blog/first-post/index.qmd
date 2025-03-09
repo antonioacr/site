@@ -1,6 +1,6 @@
 ---
 title: "Por que você deveria ter uma conta no GitHub, se está começando em Ciência de Dados"
-description: "Improve your chances of getting noticed with these tips"
+description: "Aumente suas chances de sucesso com essas dicas"
 author: "Antonio Rodrigues"
 date: "03/06/2025"
 image: "cover.jpeg"
