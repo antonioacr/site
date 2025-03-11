@@ -2,7 +2,7 @@
 title: "Por que você deveria ter uma conta no GitHub, se você está começando em Ciência de Dados"
 description: "Descubra como Git e GitHub podem transformar sua jornada"
 author: "Antonio Rodrigues"
-date: "03/06/2025"
+date: "03/10/2025"
 image: "cover.jpeg"
 categories:
   - GitHub
