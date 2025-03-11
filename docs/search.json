@@ -109,14 +109,14 @@
     "href": "blog/index.html",
     "title": "Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nPor que você deveria ter uma conta no GitHub, se está começando em Ciência de Dados\n\n\n\n\n\n\n\nGitHub\n\n\nPortfólio\n\n\nTecnologia\n\n\nCarreira\n\n\n\n\nAumente suas chances de sucesso com essas dicas\n\n\n\n\n\n\n06-03-2025\n\n\n5 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nPor que você deveria ter uma conta no GitHub, se você está começando em Ciência de Dados\n\n\n\n\n\n\n\nGitHub\n\n\nPortfólio\n\n\nTecnologia\n\n\nCarreira\n\n\n\n\nDescubra como Git e GitHub podem transformar sua jornada\n\n\n\n\n\n\n06-03-2025\n\n\n7 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/first-post/index.html",
     "href": "blog/first-post/index.html",
-    "title": "Por que você deveria ter uma conta no GitHub, se está começando em Ciência de Dados",
+    "title": "Por que você deveria ter uma conta no GitHub, se você está começando em Ciência de Dados",
     "section": "",
-    "text": "Em um mundo cada vez mais digital, onde a troca de ideias e a colaboração online são essenciais, o GitHub se destaca como uma plataforma poderosa para profissionais de diversas áreas. Embora seja tradicionalmente associado a desenvolvedores de software, as funcionalidades do GitHub vão muito além disso, tornando-se uma ferramenta valiosa para designers, pesquisadores, escritores e muitos outros. Se você ainda acha que o GitHub é exclusivo para quem escreve código, é hora de repensar essa ideia. Neste artigo, vamos explorar como você, seja qual for sua área de atuação, pode aproveitar o GitHub para impulsionar sua carreira e se destacar no mercado."
+    "text": "Você já ouviu falar de Git ou GitHub? Talvez alguém tenha dito que essas ferramentas são apenas para desenvolvedores de software e que, como cientista de dados, você não precisa se preocupar com isso. Se você é um engenheiro de software que migrou para a ciência de dados, Git e GitHub já são familiares. Mas se você está começando na área, vindo de outras áreas, ou mesmo se já é um cientista de dados experiente, este artigo é para você.\nNo final desta leitura, você entenderá por que Git e GitHub são tão importantes e como eles podem ser ferramentas valiosas em seus projetos de ciência de dados. Vamos começar!"
   },
   {
     "objectID": "blog/second-post/index.html",
@@ -200,7 +200,7 @@
     "href": "blog/first-post/index.html#github-muito-além-do-código",
     "title": "Por que você deveria ter uma conta no GitHub, se está começando em Ciência de Dados",
     "section": "GitHub: Muito Além do Código",
-    "text": "GitHub: Muito Além do Código\nGitHub é muito mais do que uma plataforma para armazenar código. Ela é uma vitrine digital, um espaço onde você pode compartilhar seus projetos, seu trabalho e até mesmo sua jornada profissional. Assim como um portfólio, o GitHub permite que você mostre o que está fazendo, como está fazendo e, mais importante, o que você aprendeu ao longo do caminho.\nSe você é designer, pesquisador ou escritor, pode usar o GitHub para hospedar seus projetos, estudos, documentos e até mesmo artigos. O GitHub transforma um simples repositório de arquivos em uma vitrine interativa, onde você pode expor suas melhores produções e permitir que outros profissionais do mundo inteiro acompanhem seu trabalho. Ao manter um perfil bem organizado e atualizado, você transmite a mensagem de que está alinhado com as tendências digitais, algo que é sempre valorizado no mercado."
+    "text": "GitHub: Muito Além do Código\n\n“Git é um sistema de controle de versão distribuído que rastreia versões de arquivos . É frequentemente usado para controlar o código-fonte por programadores que estão desenvolvendo software de forma colaborativa.” — Wikipédia\n\nGitHub é muito mais do que uma plataforma para armazenar código. Ela é uma vitrine digital, um espaço onde você pode compartilhar seus projetos, seu trabalho e até mesmo sua jornada profissional. Assim como um portfólio, o GitHub permite que você mostre o que está fazendo, como está fazendo e, mais importante, o que você aprendeu ao longo do caminho.\nSe você é designer, pesquisador ou escritor, pode usar o GitHub para hospedar seus projetos, estudos, documentos e até mesmo artigos. O GitHub transforma um simples repositório de arquivos em uma vitrine interativa, onde você pode expor suas melhores produções e permitir que outros profissionais do mundo inteiro acompanhem seu trabalho. Ao manter um perfil bem organizado e atualizado, você transmite a mensagem de que está alinhado com as tendências digitais, algo que é sempre valorizado no mercado."
   },
   {
     "objectID": "blog/first-post/index.html#crie-seu-portfólio-profissional-com-github-pages",
@@ -236,5 +236,89 @@
     "title": "Por que você deveria ter uma conta no GitHub, se está começando em Ciência de Dados",
     "section": "Conclusão: O GitHub é para Todos",
     "text": "Conclusão: O GitHub é para Todos\nO GitHub não é apenas para desenvolvedores. Ele é uma plataforma aberta, colaborativa e incrivelmente poderosa para qualquer profissional que queira compartilhar, aprender e crescer. Criar uma conta no GitHub e manter um perfil bem estruturado pode ser uma das melhores decisões que você tomará para o seu desenvolvimento profissional.\nPortanto, não importa sua área de atuação: comece agora a explorar o GitHub, construa seu portfólio, participe de comunidades e aproveite as inúmeras possibilidades que essa plataforma tem a oferecer. O futuro da colaboração e do aprendizado digital está ao alcance de todos, e o GitHub é uma das melhores ferramentas para fazer parte dessa revolução."
+  },
+  {
+    "objectID": "blog/first-post/index.html#o-que-é-git",
+    "href": "blog/first-post/index.html#o-que-é-git",
+    "title": "Por que você deveria ter uma conta no GitHub, se você está começando em Ciência de Dados",
+    "section": "O que é Git?",
+    "text": "O que é Git?\n\n“Git é um sistema de controle de versão distribuído[9] projetado para rastrear alterações em arquivos ao longo do tempo. Ele é amplamente utilizado por desenvolvedores de software para gerenciar e colaborar em projetos de código-fonte, facilitando o trabalho em equipe e a manutenção de diferentes versões do código.” — Wikipédia\n\nGit é uma ferramenta de linha de comando que permite rastrear mudanças em arquivos, criar versões do seu trabalho e colaborar com outras pessoas. Ele foi criado por Linus Torvalds, o mesmo criador do Linux, e é a base de muitas plataformas de colaboração, como o GitHub.\n\nE o GitHub?\nEnquanto Git é a ferramenta de controle de versão, GitHub é uma plataforma online que hospeda repositórios Git. Ele adiciona uma camada de colaboração e compartilhamento, permitindo que você armazene seus projetos na nuvem, compartilhe código com outras pessoas e contribua para projetos de código aberto.\nPense nisso assim:\n\nGit é o motor que faz o controle de versão funcionar.\nGitHub é a garagem onde você estaciona e compartilha seu carro (projeto).\n\nSe você pensa que Git e GitHub são apenas para desenvolvedores, saiba que essas ferramentas são muito mais versáteis e podem ser usadas por qualquer profissional que trabalhe com arquivos digitais, incluindo cientistas de dados."
+  },
+  {
+    "objectID": "blog/first-post/index.html#e-o-github",
+    "href": "blog/first-post/index.html#e-o-github",
+    "title": "Por que você deveria ter uma conta no GitHub, se está começando em Ciência de Dados",
+    "section": "E o GitHub?",
+    "text": "E o GitHub?\nEnquanto Git é a ferramenta de controle de versão, GitHub é uma plataforma online que hospeda repositórios Git. Ele adiciona uma camada de colaboração e compartilhamento, permitindo que você armazene seus projetos na nuvem, compartilhe código com outras pessoas e contribua para projetos de código aberto.\nPense nisso assim:\n\nGit é o motor que faz o controle de versão funcionar.\nGitHub é a garagem onde você estaciona e compartilha seu carro (projeto).\n\nSe você pensa que Git e GitHub são apenas para desenvolvedores, saiba que essas ferramentas são muito mais versáteis e podem ser usadas por qualquer profissional que trabalhe com arquivos digitais, incluindo cientistas de dados."
+  },
+  {
+    "objectID": "blog/first-post/index.html#por-que-git-e-github-são-importantes-para-cientistas-de-dados",
+    "href": "blog/first-post/index.html#por-que-git-e-github-são-importantes-para-cientistas-de-dados",
+    "title": "Por que você deveria ter uma conta no GitHub, se você está começando em Ciência de Dados",
+    "section": "Por que Git e GitHub são importantes para Cientistas de Dados?",
+    "text": "Por que Git e GitHub são importantes para Cientistas de Dados?\nImagine que você está trabalhando em um projeto de ciência de dados sozinho. Por que se preocupar com Git e GitHub? A resposta está na organização, no controle de versão e na colaboração.\nGit é especialmente útil em ambientes que seguem metodologias ágeis, onde o controle de versão distribuído torna o fluxo de trabalho mais eficiente e adaptável a mudanças.\n\nO que é controle de versão?\nControle de versão é um sistema que registra alterações em arquivos ao longo do tempo, permitindo que você recupere versões específicas quando necessário.\nPor exemplo, imagine que você e outro cientista de dados estão trabalhando na mesma função para construir um modelo de machine learning. Se você fizer alterações e enviá-las para o repositório remoto no GitHub, o modelo pode se tornar a versão 1.1. Se o outro cientista fizer mais alterações, o modelo passa para a versão 1.2. Se algo der errado na versão 1.2, você pode facilmente voltar para a versão 1.1. Essa é a magia do controle de versão."
+  },
+  {
+    "objectID": "blog/first-post/index.html#o-que-é-controle-de-versão",
+    "href": "blog/first-post/index.html#o-que-é-controle-de-versão",
+    "title": "Por que você deveria ter uma conta no GitHub, se está começando em Ciência de Dados",
+    "section": "O que é controle de versão?",
+    "text": "O que é controle de versão?\nControle de versão é um sistema que registra alterações em arquivos ao longo do tempo, permitindo que você recupere versões específicas quando necessário.\nPor exemplo, imagine que você e outro cientista de dados estão trabalhando na mesma função para construir um modelo de machine learning. Se você fizer alterações e enviá-las para o repositório remoto no GitHub, o modelo pode se tornar a versão 1.1. Se o outro cientista fizer mais alterações, o modelo passa para a versão 1.2. Se algo der errado na versão 1.2, você pode facilmente voltar para a versão 1.1. Essa é a magia do controle de versão."
+  },
+  {
+    "objectID": "blog/first-post/index.html#como-usar-git-e-github-sendo-cientista-de-dados",
+    "href": "blog/first-post/index.html#como-usar-git-e-github-sendo-cientista-de-dados",
+    "title": "Por que você deveria ter uma conta no GitHub, se você está começando em Ciência de Dados",
+    "section": "Como usar Git e GitHub sendo Cientista de Dados",
+    "text": "Como usar Git e GitHub sendo Cientista de Dados\nAgora que você entende o que é Git e GitHub, a pergunta é: como usá-los no dia a dia?\nVocê não precisa ser um expert em Git para ser um bom cientista de dados. O segredo é entender o fluxo de trabalho básico. Não se preocupe em decorar todos os comandos — é normal consultar a documentação ou buscar ajuda online quando necessário.\nVou focar no Git Feature Branch Workflow, um fluxo comum em projetos de código aberto e comerciais. Esse fluxo assume um repositório central, onde a branch master ou main representa o histórico oficial do projeto.\n\nPasso a passo do Git Feature Branch Workflow\n\nComece com a branch master e crie uma nova branch\nCertifique-se de que sua branch local master está atualizada com o repositório remoto no GitHub. Em seguida, crie uma nova branch para adicionar uma nova funcionalidade.\n\ngit checkout master  \ngit pull  \ngit checkout -b branch-name  \n\nAtualize, adicione, commit e envie suas alterações\nApós fazer alterações, use git status para verificar os arquivos modificados. Adicione os arquivos com git add, faça um commit com uma mensagem descritiva e envie as alterações para o repositório remoto no GitHub.\n\ngit status  \ngit add &lt;seus-arquivos&gt;  \ngit commit -m 'sua mensagem'  \ngit push -u origin branch-name  \n\nCrie um Pull Request e revise as alterações\nNo GitHub, crie um Pull Request para que sua equipe revise suas alterações antes de mesclá-las à branch master. Se houver feedback, faça as alterações necessárias, commit e envie novamente.\nResolva conflitos de merge (se houver)\nSe outras pessoas fizeram alterações no mesmo código, pode haver conflitos de merge. Resolva esses conflitos antes de mesclar sua branch com a master."
+  },
+  {
+    "objectID": "blog/first-post/index.html#passo-a-passo-do-git-feature-branch-workflow",
+    "href": "blog/first-post/index.html#passo-a-passo-do-git-feature-branch-workflow",
+    "title": "Por que você deveria ter uma conta no GitHub, se está começando em Ciência de Dados",
+    "section": "Passo a passo do Git Feature Branch Workflow",
+    "text": "Passo a passo do Git Feature Branch Workflow\n\nComece com a branch master e crie uma nova branch\nCertifique-se de que sua branch local master está atualizada com o repositório remoto no GitHub. Em seguida, crie uma nova branch para adicionar uma nova funcionalidade.\n\ngit checkout master  \ngit pull  \ngit checkout -b branch-name  \n\nAtualize, adicione, commit e envie suas alterações\nApós fazer alterações, use git status para verificar os arquivos modificados. Adicione os arquivos com git add, faça um commit com uma mensagem descritiva e envie as alterações para o repositório remoto no GitHub.\n\ngit status  \ngit add &lt;seus-arquivos&gt;  \ngit commit -m 'sua mensagem'  \ngit push -u origin branch-name  \n\nCrie um Pull Request e revise as alterações\nNo GitHub, crie um Pull Request para que sua equipe revise suas alterações antes de mesclá-las à branch master. Se houver feedback, faça as alterações necessárias, commit e envie novamente.\nResolva conflitos de merge (se houver)\nSe outras pessoas fizeram alterações no mesmo código, pode haver conflitos de merge. Resolva esses conflitos antes de mesclar sua branch com a master."
+  },
+  {
+    "objectID": "blog/first-post/index.html#github-pages-hospedando-seu-site-ou-blog",
+    "href": "blog/first-post/index.html#github-pages-hospedando-seu-site-ou-blog",
+    "title": "Por que você deveria ter uma conta no GitHub, se você está começando em Ciência de Dados",
+    "section": "GitHub Pages: Hospedando seu site ou blog",
+    "text": "GitHub Pages: Hospedando seu site ou blog\nUma das funcionalidades mais poderosas do GitHub é o GitHub Pages, que permite hospedar websites diretamente de um repositório. Isso é ideal para criar portfólios, blogs ou até mesmo sites pessoais.\nPor exemplo, este blog que você está lendo foi hospedado usando o GitHub Pages. Com ele, você pode transformar um repositório em um site estático, sem precisar de serviços de hospedagem externos. Basta configurar o repositório, adicionar seus arquivos HTML, CSS e JavaScript, e o GitHub cuida do resto.\n\nComo usar o GitHub Pages\n\nCrie um repositório no GitHub:\nO repositório deve ter o nome seu-usuario.github.io (substitua “seu-usuario” pelo seu nome de usuário no GitHub).\nAdicione seus arquivos de site:\nSuba os arquivos HTML, CSS, JavaScript e outros recursos necessários para o repositório.\nAtive o GitHub Pages:\nVá nas configurações do repositório, role até a seção “Pages” e selecione a branch que contém seus arquivos de site.\nAcesse seu site:\nEm alguns minutos, seu site estará disponível em https://seu-usuario.github.io.\n\nO GitHub Pages é uma maneira simples e gratuita de criar e hospedar sites, perfeito para quem quer mostrar seu trabalho ao mundo."
+  },
+  {
+    "objectID": "blog/first-post/index.html#como-usar-o-github-pages",
+    "href": "blog/first-post/index.html#como-usar-o-github-pages",
+    "title": "Por que você deveria ter uma conta no GitHub, se está começando em Ciência de Dados",
+    "section": "Como usar o GitHub Pages",
+    "text": "Como usar o GitHub Pages\n\nCrie um repositório no GitHub:\nO repositório deve ter o nome seu-usuario.github.io (substitua “seu-usuario” pelo seu nome de usuário no GitHub).\nAdicione seus arquivos de site:\nSuba os arquivos HTML, CSS, JavaScript e outros recursos necessários para o repositório.\nAtive o GitHub Pages:\nVá nas configurações do repositório, role até a seção “Pages” e selecione a branch que contém seus arquivos de site.\nAcesse seu site:\nEm alguns minutos, seu site estará disponível em https://seu-usuario.github.io.\n\nO GitHub Pages é uma maneira simples e gratuita de criar e hospedar sites, perfeito para quem quer mostrar seu trabalho ao mundo."
+  },
+  {
+    "objectID": "blog/first-post/index.html#facilitando-o-uso-do-git-com-o-github-desktop",
+    "href": "blog/first-post/index.html#facilitando-o-uso-do-git-com-o-github-desktop",
+    "title": "Por que você deveria ter uma conta no GitHub, se você está começando em Ciência de Dados",
+    "section": "Facilitando o uso do Git com o GitHub Desktop",
+    "text": "Facilitando o uso do Git com o GitHub Desktop\nSe você é novo no Git ou prefere uma interface mais visual e amigável, o GitHub Desktop é uma excelente opção. Ele é uma aplicação gráfica que simplifica o uso do Git, permitindo que você gerencie repositórios, branches, commits e pull requests sem precisar digitar comandos no terminal.\n\nPor que usar o GitHub Desktop?\n\nInterface intuitiva: Ideal para quem está começando ou prefere uma abordagem visual.\nFacilidade de uso: Você pode clonar repositórios, criar branches, fazer commits e sincronizar alterações com apenas alguns cliques.\nVisualização clara: Veja o histórico de commits, alterações em arquivos e conflitos de merge de forma organizada.\nIntegração com GitHub: Facilita a criação de pull requests e a colaboração em projetos diretamente da interface.\n\n\n\nComo começar com o GitHub Desktop\n\nInstale o GitHub Desktop:\nBaixe e instale o aplicativo a partir do site oficial do GitHub.\nConecte sua conta do GitHub:\nApós a instalação, faça login com sua conta do GitHub para acessar seus repositórios.\nClone um repositório:\nEscolha um repositório existente no GitHub e clone-o para sua máquina local.\nCrie uma nova branch:\nUse a interface para criar uma nova branch a partir da main ou master.\nFaça commits e sincronize:\nApós fazer alterações nos arquivos, adicione uma mensagem de commit e sincronize as alterações com o repositório remoto.\nCrie um Pull Request:\nDiretamente do GitHub Desktop, você pode criar um Pull Request para enviar suas alterações para revisão.\n\nO GitHub Desktop é uma ferramenta poderosa para quem quer simplificar o uso do Git, especialmente para cientistas de dados que podem não ter experiência prévia com controle de versão."
+  },
+  {
+    "objectID": "blog/first-post/index.html#por-que-usar-o-github-desktop",
+    "href": "blog/first-post/index.html#por-que-usar-o-github-desktop",
+    "title": "Por que você deveria ter uma conta no GitHub, se está começando em Ciência de Dados",
+    "section": "Por que usar o GitHub Desktop?",
+    "text": "Por que usar o GitHub Desktop?\n\nInterface intuitiva: Ideal para quem está começando ou prefere uma abordagem visual.\nFacilidade de uso: Você pode clonar repositórios, criar branches, fazer commits e sincronizar alterações com apenas alguns cliques.\nVisualização clara: Veja o histórico de commits, alterações em arquivos e conflitos de merge de forma organizada.\nIntegração com GitHub: Facilita a criação de pull requests e a colaboração em projetos diretamente da interface."
+  },
+  {
+    "objectID": "blog/first-post/index.html#como-começar-com-o-github-desktop",
+    "href": "blog/first-post/index.html#como-começar-com-o-github-desktop",
+    "title": "Por que você deveria ter uma conta no GitHub, se está começando em Ciência de Dados",
+    "section": "Como começar com o GitHub Desktop",
+    "text": "Como começar com o GitHub Desktop\n\nInstale o GitHub Desktop:\nBaixe e instale o aplicativo a partir do site oficial do GitHub.\nConecte sua conta do GitHub:\nApós a instalação, faça login com sua conta do GitHub para acessar seus repositórios.\nClone um repositório:\nEscolha um repositório existente no GitHub e clone-o para sua máquina local.\nCrie uma nova branch:\nUse a interface para criar uma nova branch a partir da main ou master.\nFaça commits e sincronize:\nApós fazer alterações nos arquivos, adicione uma mensagem de commit e sincronize as alterações com o repositório remoto.\nCrie um Pull Request:\nDiretamente do GitHub Desktop, você pode criar um Pull Request para enviar suas alterações para revisão.\n\nO GitHub Desktop é uma ferramenta poderosa para quem quer simplificar o uso do Git, especialmente para cientistas de dados que podem não ter experiência prévia com controle de versão."
+  },
+  {
+    "objectID": "blog/first-post/index.html#conclusão",
+    "href": "blog/first-post/index.html#conclusão",
+    "title": "Por que você deveria ter uma conta no GitHub, se você está começando em Ciência de Dados",
+    "section": "Conclusão",
+    "text": "Conclusão\nGit e GitHub são ferramentas essenciais para qualquer profissional que trabalhe com dados, código ou projetos digitais. Eles não apenas ajudam a manter o controle das versões do seu trabalho, mas também facilitam a colaboração e o compartilhamento de projetos.\nSe você está começando, não se preocupe em dominar tudo de uma vez. Comece com o básico, explore o GitHub Pages para hospedar seu site ou blog, e use o GitHub Desktop para uma experiência mais visual. Aos poucos, você se sentirá mais confortável com essas ferramentas.\nAté a próxima! 😄"
   }
 ]
