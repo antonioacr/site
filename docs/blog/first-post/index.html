@@ -112,8 +112,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#e-o-github" id="toc-e-o-github" class="nav-link active" data-scroll-target="#e-o-github">E o GitHub?</a></li>
+  <li><a href="#o-que-é-git" id="toc-o-que-é-git" class="nav-link active" data-scroll-target="#o-que-é-git">O que é Git?</a>
+  <ul class="collapse">
+  <li><a href="#e-o-github" id="toc-e-o-github" class="nav-link" data-scroll-target="#e-o-github">E o GitHub?</a></li>
+  </ul></li>
+  <li><a href="#por-que-git-e-github-são-importantes-para-cientistas-de-dados" id="toc-por-que-git-e-github-são-importantes-para-cientistas-de-dados" class="nav-link" data-scroll-target="#por-que-git-e-github-são-importantes-para-cientistas-de-dados">Por que Git e GitHub são importantes para Cientistas de Dados?</a>
+  <ul class="collapse">
   <li><a href="#o-que-é-controle-de-versão" id="toc-o-que-é-controle-de-versão" class="nav-link" data-scroll-target="#o-que-é-controle-de-versão">O que é controle de versão?</a></li>
+  </ul></li>
   <li><a href="#como-usar-git-e-github-sendo-cientista-de-dados" id="toc-como-usar-git-e-github-sendo-cientista-de-dados" class="nav-link" data-scroll-target="#como-usar-git-e-github-sendo-cientista-de-dados">Como usar Git e GitHub sendo Cientista de Dados</a>
   <ul class="collapse">
   <li><a href="#passo-a-passo-do-git-feature-branch-workflow" id="toc-passo-a-passo-do-git-feature-branch-workflow" class="nav-link" data-scroll-target="#passo-a-passo-do-git-feature-branch-workflow">Passo a passo do Git Feature Branch Workflow</a></li>
@@ -128,10 +134,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#como-começar-com-o-github-desktop" id="toc-como-começar-com-o-github-desktop" class="nav-link" data-scroll-target="#como-começar-com-o-github-desktop">Como começar com o GitHub Desktop</a></li>
   </ul></li>
   <li><a href="#conclusão" id="toc-conclusão" class="nav-link" data-scroll-target="#conclusão">Conclusão</a></li>
-  <li><a href="#até-a-próxima" id="toc-até-a-próxima" class="nav-link" data-scroll-target="#até-a-próxima">Até a próxima! 😄</a>
-  <ul class="collapse">
-  <li><a href="#conclusão-o-github-é-para-todos" id="toc-conclusão-o-github-é-para-todos" class="nav-link" data-scroll-target="#conclusão-o-github-é-para-todos">Conclusão: O GitHub é para Todos</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -179,32 +181,34 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p><img src="git.jpeg" class="img-fluid"></p>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream Você já ouviu falar de <strong>Git</strong> ou <strong>GitHub</strong>? Talvez alguém tenha dito que essas ferramentas são apenas para desenvolvedores de software e que, como cientista de dados, você não precisa se preocupar com isso. Se você é um engenheiro de software que migrou para a ciência de dados, Git e GitHub já são familiares. Mas se você está começando na área, vindo de outras áreas, ou mesmo se já é um cientista de dados experiente, este artigo é para você. ======= ## GitHub: Muito Além do Código</p>
-<p>GitHub é muito mais do que uma plataforma para armazenar código. Ela é uma vitrine digital, um espaço onde você pode compartilhar seus projetos, seu trabalho e até mesmo sua jornada profissional. Assim como um portfólio, o GitHub permite que você mostre o que está fazendo, como está fazendo e, mais importante, o que você aprendeu ao longo do caminho. &gt;&gt;&gt;&gt;&gt;&gt;&gt; Stashed changes</p>
+<p>Você já ouviu falar de <strong>Git</strong> ou <strong>GitHub</strong>? Talvez alguém tenha dito que essas ferramentas são apenas para desenvolvedores de software e que, como cientista de dados, você não precisa se preocupar com isso. Se você é um engenheiro de software que migrou para a ciência de dados, Git e GitHub já são familiares. Mas se você está começando na área, vindo de outras áreas, ou mesmo se já é um cientista de dados experiente, este artigo é para você.</p>
 <p>No final desta leitura, você entenderá por que <strong>Git</strong> e <strong>GitHub</strong> são tão importantes e como eles podem ser ferramentas valiosas em seus projetos de ciência de dados. Vamos começar!</p>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream ## O que é Git? ======= ## Crie Seu Portfólio Profissional com GitHub Pages</p>
-<p>Uma das grandes vantagens do GitHub é a funcionalidade GitHub Pages. Ela permite que você crie um site pessoal ou um blog de forma simples, sem precisar se preocupar com hospedagem ou plataformas externas. Usando HTML, Markdown ou até mesmo ferramentas como Jekyll, qualquer pessoa pode criar um espaço digital para compartilhar seu portfólio ou suas ideias. E o melhor: tudo de forma gratuita. &gt;&gt;&gt;&gt;&gt;&gt;&gt; Stashed changes</p>
+<section id="o-que-é-git" class="level2">
+<h2 class="anchored" data-anchor-id="o-que-é-git">O que é Git?</h2>
 <blockquote class="blockquote">
 <p>“<strong>Git</strong> é um sistema de controle de versão distribuído[9] projetado para rastrear alterações em arquivos ao longo do tempo. Ele é amplamente utilizado por desenvolvedores de software para gerenciar e colaborar em projetos de código-fonte, facilitando o trabalho em equipe e a manutenção de diferentes versões do código.” — Wikipédia</p>
 </blockquote>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream Git é uma ferramenta de linha de comando que permite rastrear mudanças em arquivos, criar versões do seu trabalho e colaborar com outras pessoas. Ele foi criado por Linus Torvalds, o mesmo criador do Linux, e é a base de muitas plataformas de colaboração, como o GitHub. ======= ## Participe de Comunidades e Amplie Seu Networking</p>
-<p>O GitHub não é apenas uma plataforma para hospedar projetos individuais, mas também um ponto de encontro para pessoas de diversas áreas compartilharem conhecimento. Mesmo que você não saiba programar, pode participar ativamente de projetos de código aberto, contribuir com traduções, revisões ou até com sugestões. Ao fazer isso, você entra em contato com outras pessoas da sua área e expande seu networking de forma significativa. &gt;&gt;&gt;&gt;&gt;&gt;&gt; Stashed changes</p>
+<p>Git é uma ferramenta de linha de comando que permite rastrear mudanças em arquivos, criar versões do seu trabalho e colaborar com outras pessoas. Ele foi criado por Linus Torvalds, o mesmo criador do Linux, e é a base de muitas plataformas de colaboração, como o GitHub.</p>
 <section id="e-o-github" class="level3">
 <h3 class="anchored" data-anchor-id="e-o-github">E o GitHub?</h3>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream Enquanto <strong>Git</strong> é a ferramenta de controle de versão, <strong>GitHub</strong> é uma plataforma online que hospeda repositórios Git. Ele adiciona uma camada de colaboração e compartilhamento, permitindo que você armazene seus projetos na nuvem, compartilhe código com outras pessoas e contribua para projetos de código aberto. ======= ## O Impacto no Seu Desenvolvimento Profissional</p>
-<p>Estar presente no GitHub é uma forma de demonstrar que você está engajado com as tecnologias e metodologias mais modernas. Mesmo que você não seja um desenvolvedor, ter um perfil ativo e compartilhar projetos de qualidade pode ser um grande diferencial no mercado de trabalho. O GitHub transmite uma imagem de profissionalismo e de quem está sempre em busca de aprendizado e evolução. &gt;&gt;&gt;&gt;&gt;&gt;&gt; Stashed changes</p>
+<p>Enquanto <strong>Git</strong> é a ferramenta de controle de versão, <strong>GitHub</strong> é uma plataforma online que hospeda repositórios Git. Ele adiciona uma camada de colaboração e compartilhamento, permitindo que você armazene seus projetos na nuvem, compartilhe código com outras pessoas e contribua para projetos de código aberto.</p>
 <p>Pense nisso assim:</p>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream - <strong>Git</strong> é o motor que faz o controle de versão funcionar. - <strong>GitHub</strong> é a garagem onde você estaciona e compartilha seu carro (projeto). ======= ## Seja Criativo, Organize e Mostre Seu Melhor Trabalho</p>
-<p>Criar um perfil no GitHub é o primeiro passo, mas para realmente se destacar, é preciso caprichar na organização e estruturação dos seus projetos. Um bom README, a documentação clara do seu trabalho e a escolha dos projetos que você irá destacar são fundamentais. Lembre-se de que, assim como um currículo bem feito, seu GitHub também deve refletir quem você é profissionalmente. &gt;&gt;&gt;&gt;&gt;&gt;&gt; Stashed changes</p>
+<ul>
+<li><strong>Git</strong> é o motor que faz o controle de versão funcionar.</li>
+<li><strong>GitHub</strong> é a garagem onde você estaciona e compartilha seu carro (projeto).</li>
+</ul>
 <p>Se você pensa que Git e GitHub são apenas para desenvolvedores, saiba que essas ferramentas são muito mais versáteis e podem ser usadas por qualquer profissional que trabalhe com arquivos digitais, incluindo cientistas de dados.</p>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream ## Por que Git e GitHub são importantes para Cientistas de Dados?</p>
+</section>
+</section>
+<section id="por-que-git-e-github-são-importantes-para-cientistas-de-dados" class="level2">
+<h2 class="anchored" data-anchor-id="por-que-git-e-github-são-importantes-para-cientistas-de-dados">Por que Git e GitHub são importantes para Cientistas de Dados?</h2>
 <p>Imagine que você está trabalhando em um projeto de ciência de dados sozinho. Por que se preocupar com Git e GitHub? A resposta está na organização, no controle de versão e na colaboração.</p>
 <p>Git é especialmente útil em ambientes que seguem metodologias ágeis, onde o controle de versão distribuído torna o fluxo de trabalho mais eficiente e adaptável a mudanças.</p>
-</section>
 <section id="o-que-é-controle-de-versão" class="level3">
 <h3 class="anchored" data-anchor-id="o-que-é-controle-de-versão">O que é controle de versão?</h3>
 <p>Controle de versão é um sistema que registra alterações em arquivos ao longo do tempo, permitindo que você recupere versões específicas quando necessário.</p>
 <p>Por exemplo, imagine que você e outro cientista de dados estão trabalhando na mesma função para construir um modelo de machine learning. Se você fizer alterações e enviá-las para o repositório remoto no GitHub, o modelo pode se tornar a versão 1.1. Se o outro cientista fizer mais alterações, o modelo passa para a versão 1.2. Se algo der errado na versão 1.2, você pode facilmente voltar para a versão 1.1. Essa é a magia do controle de versão.</p>
+</section>
 </section>
 <section id="como-usar-git-e-github-sendo-cientista-de-dados" class="level2">
 <h2 class="anchored" data-anchor-id="como-usar-git-e-github-sendo-cientista-de-dados">Como usar Git e GitHub sendo Cientista de Dados</h2>
@@ -217,14 +221,18 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Comece com a branch master e crie uma nova branch</strong></p>
 <p>Certifique-se de que sua branch local <code>master</code> está atualizada com o repositório remoto no GitHub. Em seguida, crie uma nova branch para adicionar uma nova funcionalidade.</p></li>
 </ol>
-<pre class="{bash}"><code>git checkout master  
+<pre class="{bash}"><code>#| eval: false
+#| include: false
+git checkout master  
 git pull  
 git checkout -b branch-name  </code></pre>
 <ol start="2" type="1">
 <li><p><strong>Atualize, adicione, commit e envie suas alterações</strong></p>
 <p>Após fazer alterações, use <code>git status</code> para verificar os arquivos modificados. Adicione os arquivos com <code>git add</code>, faça um commit com uma mensagem descritiva e envie as alterações para o repositório remoto no GitHub.</p></li>
 </ol>
-<pre class="{bash}"><code>git status  
+<pre class="{bash}"><code>#| eval: false
+#| include: false
+git status  
 git add &lt;seus-arquivos&gt;  
 git commit -m 'sua mensagem'  
 git push -u origin branch-name  </code></pre>
@@ -290,16 +298,9 @@ git push -u origin branch-name  </code></pre>
 <h2 class="anchored" data-anchor-id="conclusão">Conclusão</h2>
 <p>Git e GitHub são ferramentas essenciais para qualquer profissional que trabalhe com dados, código ou projetos digitais. Eles não apenas ajudam a manter o controle das versões do seu trabalho, mas também facilitam a colaboração e o compartilhamento de projetos.</p>
 <p>Se você está começando, não se preocupe em dominar tudo de uma vez. Comece com o básico, explore o GitHub Pages para hospedar seu site ou blog, e use o GitHub Desktop para uma experiência mais visual. Aos poucos, você se sentirá mais confortável com essas ferramentas.</p>
-</section>
-<section id="até-a-próxima" class="level1">
-<h1>Até a próxima! 😄</h1>
-<section id="conclusão-o-github-é-para-todos" class="level2">
-<h2 class="anchored" data-anchor-id="conclusão-o-github-é-para-todos">Conclusão: O GitHub é para Todos</h2>
-<p>O GitHub não é apenas para desenvolvedores. Ele é uma plataforma aberta, colaborativa e incrivelmente poderosa para qualquer profissional que queira compartilhar, aprender e crescer. Criar uma conta no GitHub e manter um perfil bem estruturado pode ser uma das melhores decisões que você tomará para o seu desenvolvimento profissional.</p>
-<p>Portanto, não importa sua área de atuação: comece agora a explorar o GitHub, construa seu portfólio, participe de comunidades e aproveite as inúmeras possibilidades que essa plataforma tem a oferecer. O futuro da colaboração e do aprendizado digital está ao alcance de todos, e o GitHub é uma das melhores ferramentas para fazer parte dessa revolução. &gt;&gt;&gt;&gt;&gt;&gt;&gt; Stashed changes</p>
+<p>Até a próxima! 😄</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
