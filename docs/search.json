@@ -320,5 +320,19 @@
     "title": "Por que você deveria ter uma conta no GitHub, se você está começando em Ciência de Dados",
     "section": "Conclusão",
     "text": "Conclusão\nGit e GitHub são ferramentas essenciais para qualquer profissional que trabalhe com dados, código ou projetos digitais. Eles não apenas ajudam a manter o controle das versões do seu trabalho, mas também facilitam a colaboração e o compartilhamento de projetos.\nSe você está começando, não se preocupe em dominar tudo de uma vez. Comece com o básico, explore o GitHub Pages para hospedar seu site ou blog, e use o GitHub Desktop para uma experiência mais visual. Aos poucos, você se sentirá mais confortável com essas ferramentas.\nAté a próxima! 😄"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          path\n        \n         \n        \n         \n          Description\n        \n         \n          Categories\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\npath\n\n\n \n\n\nDescription\n\n\nCategories\n\n\nDate\n\n\n\n\n\n\nPredicting House Prices with Machine Learning\n\n\nhttps://example.com/house-prices\n\n\n\n\n\nThis project involves using machine learning algorithms to predict house prices based on various features such as location, size, and amenities. It includes data cleaning, feature engineering, and model selection. \n\n\nPython,Machine Learning,Data Cleaning\n\n\nJan 1, 2024\n\n\n\n\nCustomer Segmentation Using Clustering Techniques\n\n\nhttps://example.com/customer-segmentation\n\n\n\n\n\nThis project focuses on segmenting customers into different groups based on their purchasing behavior and demographics. It uses clustering algorithms like K-means and hierarchical clustering to identify distinct customer segments. \n\n\nR,Machine Learning,Clustering,Statistical Modelling\n\n\nApr 1, 2024\n\n\n\n\nVisualizing Global CO2 Emissions\n\n\nhttps://example.com/co2-visualization\n\n\n\n\n\nThis project involves creating visualizations to show trends in global CO2 emissions over time. It includes data extraction from public databases, data cleaning, and using visualization libraries to create interactive charts and graphs. \n\n\nR,Data Visualization,Environmental Science\n\n\nJul 1, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Gestão de Operações 2\n\n\nUniversidade Federal de Juiz Fora\n\n\n\nAntonio Rodrigues\n\n\nJan 1, 2025\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

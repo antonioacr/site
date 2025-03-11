@@ -4,5 +4,15 @@
     "items": [
       "/blog/first-post/index.html"
     ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": []
+  },
+  {
+    "listing": "/teaching/index.html",
+    "items": [
+      "/teaching/2025-1/index.html"
+    ]
   }
 ]

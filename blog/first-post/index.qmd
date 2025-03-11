@@ -12,7 +12,7 @@ categories:
 toc: true
 ---
 
-![](git.jpeg)
+![](cover.jpeg)
 
 Você já ouviu falar de **Git** ou **GitHub**? Talvez alguém tenha dito que essas ferramentas são apenas para desenvolvedores de software e que, como cientista de dados, você não precisa se preocupar com isso. Se você é um engenheiro de software que migrou para a ciência de dados, Git e GitHub já são familiares. Mas se você está começando na área, vindo de outras áreas, ou mesmo se já é um cientista de dados experiente, este artigo é para você.
 
