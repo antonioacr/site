@@ -20,7 +20,7 @@ No final desta leitura, você entenderá por que **Git** e **GitHub** são tão 
 
 ## O que é Git?
 
-> "**Git** é um sistema de controle de versão distribuído\[9\] projetado para rastrear alterações em arquivos ao longo do tempo. Ele é amplamente utilizado por desenvolvedores de software para gerenciar e colaborar em projetos de código-fonte, facilitando o trabalho em equipe e a manutenção de diferentes versões do código." --- Wikipédia
+> "**Git** é um sistema de controle de versão distribuído projetado para rastrear alterações em arquivos ao longo do tempo. Ele é amplamente utilizado por desenvolvedores de software para gerenciar e colaborar em projetos de código-fonte, facilitando o trabalho em equipe e a manutenção de diferentes versões do código." --- Wikipédia
 
 Git é uma ferramenta de linha de comando que permite rastrear mudanças em arquivos, criar versões do seu trabalho e colaborar com outras pessoas. Ele foi criado por Linus Torvalds, o mesmo criador do Linux, e é a base de muitas plataformas de colaboração, como o GitHub.
 
