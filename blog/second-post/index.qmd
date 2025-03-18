@@ -3,6 +3,7 @@ title: "Os melhores livros gratuitos para aprender R"
 description: "Aprimore suas habilidades em R com esta seleção de livros gratuitos"
 author: "Antonio Rodrigues"
 date: "03/18/2025"
+image: "cover.jpeg"
 categories:
   - R
   - Livros 
