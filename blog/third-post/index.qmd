@@ -174,5 +174,7 @@ E agora? Você já tem o projeto aprovado, a estrutura levantada e os acabamento
 No próximo meu próximo post, vou te mostrar como: 
 
 -   🔍 **Explorar cada um dos arquivos essenciais** - entendendo a função de cada "peça" da sua construção digital
--   ✨ **Publicar seu site gratuitamente no GitHub Pages** - seu "habite-se" digital\
+
+-   ✨ **Publicar seu site gratuitamente no GitHub Pages** - seu "habite-se" digital
+
 -   🌐 **Registrar seu endereço profissional** (seunome.github.io)
