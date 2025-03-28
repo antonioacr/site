@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Alicia">
-<meta name="dcterms.date" content="2021-05-24">
-<meta name="description" content="An example post where the source document is a Jupyter Notebook">
+<meta name="author" content="Antonio Rodrigues">
+<meta name="dcterms.date" content="2025-03-28">
+<meta name="description" content="Crie seu site pessoal de forma fácil e profissional">
 
-<title>Antonio Carlos Rodrigues - Third Blog Post</title>
+<title>Antonio Carlos Rodrigues - Construindo seu site com Quarto: do alicerce ao acabamento</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,10 +72,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -95,15 +98,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script src="https://code.iconify.design/2/2.0.0-rc2/iconify.min.js"></script>
 
 
-<meta property="og:title" content="Antonio Carlos Rodrigues - Third Blog Post">
-<meta property="og:description" content="An example post where the source document is a Jupyter Notebook">
-<meta property="og:image" content="index_files/figure-html/cell-2-output-1.png">
+<meta property="og:title" content="Antonio Carlos Rodrigues - Construindo seu site com Quarto: do alicerce ao acabamento">
+<meta property="og:description" content="Crie seu site pessoal de forma fácil e profissional">
+<meta property="og:image" content="cover.png">
 <meta property="og:site-name" content="Antonio Carlos Rodrigues">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -121,11 +125,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../../blog/index.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -135,22 +144,45 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#por-que-quarto-é-o-construtor-ideal" id="toc-por-que-quarto-é-o-construtor-ideal" class="nav-link active" data-scroll-target="#por-que-quarto-é-o-construtor-ideal">📐 Por que Quarto é o construtor ideal?</a></li>
+  <li><a href="#kit-básico-do-construtor-digital" id="toc-kit-básico-do-construtor-digital" class="nav-link" data-scroll-target="#kit-básico-do-construtor-digital">🧰 Kit básico do construtor digital</a>
+  <ul class="collapse">
+  <li><a href="#o-que-você-precisa" id="toc-o-que-você-precisa" class="nav-link" data-scroll-target="#o-que-você-precisa"><strong>📦 O que você precisa?</strong></a></li>
+  </ul></li>
+  <li><a href="#lançando-os-fundamentos" id="toc-lançando-os-fundamentos" class="nav-link" data-scroll-target="#lançando-os-fundamentos">🔨 Lançando os fundamentos</a></li>
+  <li><a href="#estruturando-seu-prédio-digital" id="toc-estruturando-seu-prédio-digital" class="nav-link" data-scroll-target="#estruturando-seu-prédio-digital">🏢 Estruturando seu prédio digital</a>
+  <ul class="collapse">
+  <li><a href="#index.qmd-sua-fachada-digital" id="toc-index.qmd-sua-fachada-digital" class="nav-link" data-scroll-target="#index.qmd-sua-fachada-digital">🚪 ️<code>index.qmd️</code> sua fachada digital</a></li>
+  <li><a href="#about.qmd-sseu-espaço-personalizável" id="toc-about.qmd-sseu-espaço-personalizável" class="nav-link" data-scroll-target="#about.qmd-sseu-espaço-personalizável">🛋️️` about.qmd: Sseu espaço personalizável</a></li>
+  <li><a href="#quarto.yml-o-projeto-executivo" id="toc-quarto.yml-o-projeto-executivo" class="nav-link" data-scroll-target="#quarto.yml-o-projeto-executivo">🏗<code>quarto.yml</code>: o projeto executivo</a></li>
+  <li><a href="#styles.css-os-acabamentos" id="toc-styles.css-os-acabamentos" class="nav-link" data-scroll-target="#styles.css-os-acabamentos">🎨 styles.css: os acabamentos</a></li>
+  </ul></li>
+  <li><a href="#a-pasta-_site-sua-obra-entregue" id="toc-a-pasta-_site-sua-obra-entregue" class="nav-link" data-scroll-target="#a-pasta-_site-sua-obra-entregue">🚧 A pasta️ <code>\_site/️</code>: sua obra entregue</a></li>
+  <li><a href="#próximos-passos-sua-obra-vai-ganhar-vida" id="toc-próximos-passos-sua-obra-vai-ganhar-vida" class="nav-link" data-scroll-target="#próximos-passos-sua-obra-vai-ganhar-vida">🚀 <strong>Próximos passos: sua obra vai ganhar vida!</strong></a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Third Blog Post</h1>
+<h1 class="title">Construindo seu site com Quarto: do alicerce ao acabamento</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Science</div>
-    <div class="quarto-category">Data</div>
+    <div class="quarto-category">R</div>
+    <div class="quarto-category">Quarto</div>
+    <div class="quarto-category">Website</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    An example post where the source document is a Jupyter Notebook
+    Crie seu site pessoal de forma fácil e profissional
   </div>
 </div>
 
@@ -160,14 +192,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Alicia </p>
+             <p>Antonio Rodrigues </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 24, 2021</p>
+      <p class="date">March 28, 2025</p>
     </div>
   </div>
   
@@ -177,30 +209,219 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<p>The source for any page in your website could also be a Jupyter Notebook. This one is <code>third-post/index.ipynb</code>.</p>
-<p>Here’s an example I borrowed from the <a href="https://seaborn.pydata.org/examples/multiple_conditional_kde.html">Seaborn docs</a>:</p>
-<div class="cell" data-execution_count="8">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>sns.set_theme(style<span class="op">=</span><span class="st">"whitegrid"</span>)</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the diamonds dataset</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>diamonds <span class="op">=</span> sns.load_dataset(<span class="st">"diamonds"</span>)</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the distribution of clarity ratings, conditional on carat</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>sns.displot(</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    data<span class="op">=</span>diamonds,</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    x<span class="op">=</span><span class="st">"carat"</span>, hue<span class="op">=</span><span class="st">"cut"</span>,</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    kind<span class="op">=</span><span class="st">"kde"</span>, height<span class="op">=</span><span class="dv">4</span>, aspect<span class="op">=</span><span class="fl">1.5</span>,</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    multiple<span class="op">=</span><span class="st">"fill"</span>, clip<span class="op">=</span>(<span class="dv">0</span>, <span class="va">None</span>),</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    palette<span class="op">=</span><span class="st">"ch:rot=-.25,hue=1,light=.75"</span>,   </span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display">
-<p><img src="index_files/figure-html/cell-2-output-1.png" class="img-fluid"></p>
+<p><img src="cover.png" class="img-fluid"></p>
+<p>E aí, futuro construtor digital! 👷‍♂️ Se você quer erguer seu próprio site profissional mas acha que precisa ser um expert em programação, prepare-se para uma revolução: o Quarto é como ter uma equipe completa de arquitetos e engenheiros civis - só que em formato de software!</p>
+<section id="por-que-quarto-é-o-construtor-ideal" class="level3">
+<h3 class="anchored" data-anchor-id="por-que-quarto-é-o-construtor-ideal">📐 Por que Quarto é o construtor ideal?</h3>
+<ul>
+<li><p>Assim como um bom projeto de engenharia segue etapas claras - da fundação ao acabamento - criar um site com <a href="https://quarto.org/">Quarto</a> mantém essa lógica organizada:</p>
+<ul>
+<li><p><strong>Planta baixa inteligente</strong>: Estrutura pronta, só falta seu toque pessoal</p></li>
+<li><p><strong>Equipe multidisciplinar</strong>: Suporta R, Python e Julia como diferentes especialistas</p></li>
+<li><p><strong>Escalável</strong>: Desde um “sobrado digital” até arranha-céus web complexos</p></li>
+</ul>
+<p>O melhor? Você não precisa ser “engenheiro sênior” em programação. Se já usou RMarkdown (sua “betoneira básica”), vai se sentir em casa com as ferramentas profissionais do Quarto!</p></li>
+</ul>
+</section>
+<section id="kit-básico-do-construtor-digital" class="level2">
+<h2 class="anchored" data-anchor-id="kit-básico-do-construtor-digital">🧰 Kit básico do construtor digital</h2>
+<p>Antes de colocar a mão na massa (ou melhor, no código!), você vai precisar do <strong>kit essencial</strong> para construir seu site com Quarto. Pense nisso como aquela lista de materiais que todo mestre de obras checa antes de começar uma construção.</p>
+<section id="o-que-você-precisa" class="level3">
+<h3 class="anchored" data-anchor-id="o-que-você-precisa"><strong>📦 O que você precisa?</strong></h3>
+<p>Antes de começar, confira sua lista de materiais essenciais:</p>
+<table class="table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Ferramenta</strong></th>
+<th style="text-align: left;"><strong>Equivalente na Construção</strong></th>
+<th style="text-align: left;"><strong>Função</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">R + RStudio</td>
+<td style="text-align: left;">Grua e central de comando</td>
+<td style="text-align: left;">Seu ambiente principal de trabalho</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Git</td>
+<td style="text-align: left;">Arquivo de projetos atualizado</td>
+<td style="text-align: left;">Controle de versão</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GitHub</td>
+<td style="text-align: left;">Terreno para construção</td>
+<td style="text-align: left;">Hospedagem gratuita</td>
+</tr>
+</tbody>
+</table>
+<p>💡 <strong>Dica do Mestre de Obras</strong>: Git/GitHub parece complexo? É como aprender a usar um nível a laser - assustador no começo, mas vira segundo natureza. Confira este [guia básico] para começar.</p>
+<p>Confira meu <a href="https://antonioacr.github.io/site/blog/first-post/">post</a> para começar.</p>
+<hr>
+</section>
+</section>
+<section id="lançando-os-fundamentos" class="level2">
+<h2 class="anchored" data-anchor-id="lançando-os-fundamentos">🔨 Lançando os fundamentos</h2>
+<p>Vamos iniciar nossa obra em 3 etapas simples:</p>
+<ol type="1">
+<li><p><strong>Preparando o terreno</strong>:</p>
+<ul>
+<li><p>Abra o RStudio</p></li>
+<li><p>No canto superior direito, clique no menu suspenso “Project: (None)”</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/newproject.png" class="img-fluid figure-img" style="width:40.0%"></p>
+</figure>
 </div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/quartodirectory.png" class="img-fluid figure-img" style="width:50.0%"></p>
+</figure>
 </div>
+<ul>
+<li>Selecione “New Project…” → “New Directory” → “Quarto Website</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/quartowebsite.png" class="img-fluid figure-img" style="width:50.0%"></p>
+</figure>
+</div></li>
+<li><p><strong>Aprovando o projeto</strong>:</p>
+<ul>
+<li><p>Nomeie seu canteiro digital (ex: “site”)</p></li>
+<li><p>Defina o local da obra (pasta do computador)</p></li>
+</ul></li>
+<li><p><strong>Iniciando a construção</strong>:</p>
+<ul>
+<li>Clique em “Create Project” e… obra iniciada!</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/nameproject.png" class="img-fluid figure-img" style="width:45.0%"></p>
+</figure>
+</div></li>
+<li><p><strong>Pronto!</strong><br>
+O RStudio criará automaticamente todos os arquivos básicos necessários para seu site Quarto.</p></li>
+</ol>
+<p>✅ <strong>Dica:</strong> Assim como um bom alicerce evita rachaduras, um nome bem definido evita retrabalhos futuros.</p>
+<hr>
+</section>
+<section id="estruturando-seu-prédio-digital" class="level2">
+<h2 class="anchored" data-anchor-id="estruturando-seu-prédio-digital">🏢 Estruturando seu prédio digital</h2>
+<p>Seu projeto vem com a estrutura básica já organizada:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Componente</strong></th>
+<th style="text-align: left;"><strong>Função</strong></th>
+<th style="text-align: left;"><strong>Importância</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>index.qmd</code></td>
+<td style="text-align: left;">Fachada principal</td>
+<td style="text-align: left;">⚠️ Nunca renomeie!</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>about.qmd</code></td>
+<td style="text-align: left;">Área institucional</td>
+<td style="text-align: left;">Totalmente personalizável</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>_quarto.yml</code></td>
+<td style="text-align: left;">Projeto arquitetônico</td>
+<td style="text-align: left;">Controla toda a estrutura</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>styles.css</code></td>
+<td style="text-align: left;">Acabamentos visuais</td>
+<td style="text-align: left;">Opcional, mas recomendo!</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>_site/</code></td>
+<td style="text-align: left;">Obra concluída</td>
+<td style="text-align: left;">Não edite manualmente!</td>
+</tr>
+</tbody>
+</table>
+<section id="index.qmd-sua-fachada-digital" class="level3">
+<h3 class="anchored" data-anchor-id="index.qmd-sua-fachada-digital">🚪 ️<code>index.qmd️</code> sua fachada digital</h3>
+<p>O arquivo <code>index.qmd</code> é a porta de entrada do seu site — ele define a primeira impressão que seus visitantes terão! ✨</p>
+<ul>
+<li><p><strong>Obrigatório</strong>: Mantenha sempre esse nome</p></li>
+<li><p><strong>Flexível</strong>: Misture Markdown, HTML e código</p></li>
+</ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="at">`index.qmd`</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"site"</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="about.qmd-sseu-espaço-personalizável" class="level3">
+<h3 class="anchored" data-anchor-id="about.qmd-sseu-espaço-personalizável">🛋️️` about.qmd: Sseu espaço personalizável</h3>
+<p>Se o <code>index.qmd</code> é a porta de entrada do seu site, o <strong><code>about.qmd</code></strong> é aquele cômodo que você pode redecorar do zero! 🎨✨</p>
+<p>Diferente da página principal (que precisa manter o nome <code>index.qmd</code>), essa aqui é <strong>totalmente flexível</strong> – você pode:</p>
+<ul>
+<li><p>Renomeie como quiser (<code>portfolio.qmd</code>, <code>servicos.qmd</code>)</p></li>
+<li><p>Crie qualquer tipo de conteúdo</p></li>
+</ul>
+</section>
+<section id="quarto.yml-o-projeto-executivo" class="level3">
+<h3 class="anchored" data-anchor-id="quarto.yml-o-projeto-executivo">🏗<code>quarto.yml</code>: o projeto executivo</h3>
+<p>Se o seu site fosse uma casa, o <code>_quarto.yml</code> seria a <strong>planta arquitetônica</strong> que define toda a estrutura – desde os cômodos (páginas) até os acabamentos (temas e estilos). O <code>_quarto.yml</code> controla:</p>
+<ul>
+<li><p><strong>Estrutura principal</strong> (menu de navegação, rodapé, barras laterais)</p></li>
+<li><p><strong>Aparência global</strong> (tema, cores, fontes)</p></li>
+<li><p><strong>Configurações técnicas</strong> (diretórios, plugins, comportamentos)</p></li>
+</ul>
+<p>Por padrão, o arquivo é segue esta estrutura:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="at">`quarto.yml`</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">project</span><span class="kw">:</span><span class="at"> </span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">type</span><span class="kw">:</span><span class="at"> website</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">website</span><span class="kw">:</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"mysite"</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">navbar</span><span class="kw">:</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">left</span><span class="kw">:</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">href</span><span class="kw">:</span><span class="at"> index.qmd</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">text</span><span class="kw">:</span><span class="at"> Home</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> about.qmd</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="fu">format</span><span class="kw">:</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">html</span><span class="kw">:</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">theme</span><span class="kw">:</span><span class="at"> cosmo</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">css</span><span class="kw">:</span><span class="at"> styles.css</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">toc</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="styles.css-os-acabamentos" class="level3">
+<h3 class="anchored" data-anchor-id="styles.css-os-acabamentos">🎨 styles.css: os acabamentos</h3>
+<p>Pense no <code>styles.css</code> como a <strong>caixa de tintas</strong> do seu site - é aqui que você define cores, fontes e todos os detalhes visuais que dão personalidade ao seu projeto. Enquanto o <code>_quarto.yml</code> cuida da estrutura, esse arquivo é responsável pelo visual!</p>
+</section>
+</section>
+<section id="a-pasta-_site-sua-obra-entregue" class="level2">
+<h2 class="anchored" data-anchor-id="a-pasta-_site-sua-obra-entregue">🚧 A pasta️ <code>\_site/️</code>: sua obra entregue</h2>
+<p>Pense nela como o prédio pronto após a vistoria:</p>
+<ul>
+<li><p>Contém toda a estrutura convertida para HTML</p></li>
+<li><p><strong>Não edite manualmente!</strong> (será sobrescrito)</p></li>
+<li><p>Atualize sempre os arquivos-fonte e rode <code>quarto render</code></p></li>
+</ul>
+</section>
+<section id="próximos-passos-sua-obra-vai-ganhar-vida" class="level2">
+<h2 class="anchored" data-anchor-id="próximos-passos-sua-obra-vai-ganhar-vida">🚀 <strong>Próximos passos: sua obra vai ganhar vida!</strong></h2>
+<p>E agora? Você já tem o projeto aprovado, a estrutura levantada e os acabamentos definidos. Falta só o <strong>grande lançamento</strong>!</p>
+<p>No próximo meu próximo post, vou te mostrar como: 🔍 <strong>Explorar cada um dos arquivos essenciais</strong> - entendendo a função de cada “peça” da sua construção digital ✨ <strong>Publicar seu site gratuitamente no GitHub Pages</strong> - seu “habite-se” digital<br>
+✨ <strong>Publicar seu site gratuitamente no GitHub Pages</strong> - seu “habite-se” digital<br>
+🌐 <strong>Registrar seu endereço profissional</strong> (seunome.github.io)</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -223,6 +444,121 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -442,7 +778,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       &nbsp;
     </div>   
-    <div class="nav-footer-center">Made with R and Quarto</div>
+    <div class="nav-footer-center">Made with RStudio <iconify-icon role="img" inline="" icon="file-icons:rstudio" aria-label="Icon rstudio from file-icons Iconify.design set." title="Icon rstudio from file-icons Iconify.design set."></iconify-icon> and Quarto <a href="https://quarto.org/"><iconify-icon role="img" inline="" icon="simple-icons:quarto" aria-label="Icon quarto from simple-icons Iconify.design set." title="Icon quarto from simple-icons Iconify.design set."></iconify-icon></a></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>

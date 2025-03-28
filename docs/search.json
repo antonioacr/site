@@ -109,7 +109,7 @@
     "href": "blog/index.html",
     "title": "Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nOs melhores livros gratuitos para aprender R\n\n\n\n\n\n\n\nR\n\n\nLivros\n\n\nCiência de dados\n\n\n\n\nAprimore suas habilidades em R com esta seleção de livros gratuitos\n\n\n\n\n\n\n18-03-2025\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\nPor que você deveria ter uma conta no GitHub, se você está começando em Ciência de Dados\n\n\n\n\n\n\n\nGitHub\n\n\nPortfólio\n\n\nTecnologia\n\n\nCarreira\n\n\n\n\nDescubra como Git e GitHub podem transformar sua jornada\n\n\n\n\n\n\n10-03-2025\n\n\n7 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nConstruindo Seu Site com Quarto: do Projeto Alicerce ao Acabamento\n\n\n\n\n\n\n\nR\n\n\nQuarto\n\n\nWebsite\n\n\n\n\nCrie seu site pessoal de forma fácil e profissional\n\n\n\n\n\n\n28-03-2025\n\n\n5 min\n\n\n\n\n\n\n  \n\n\n\n\nOs melhores livros gratuitos para aprender R\n\n\n\n\n\n\n\nR\n\n\nLivros\n\n\nCiência de dados\n\n\n\n\nAprimore suas habilidades em R com esta seleção de livros gratuitos\n\n\n\n\n\n\n18-03-2025\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\nPor que você deveria ter uma conta no GitHub, se você está começando em Ciência de Dados\n\n\n\n\n\n\n\nGitHub\n\n\nPortfólio\n\n\nTecnologia\n\n\nCarreira\n\n\n\n\nDescubra como Git e GitHub podem transformar sua jornada\n\n\n\n\n\n\n10-03-2025\n\n\n7 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/first-post/index.html",
@@ -128,9 +128,9 @@
   {
     "objectID": "blog/third-post/index.html",
     "href": "blog/third-post/index.html",
-    "title": "Third Blog Post",
+    "title": "Construindo seu site com Quarto: do alicerce ao acabamento",
     "section": "",
-    "text": "The source for any page in your website could also be a Jupyter Notebook. This one is third-post/index.ipynb.\nHere’s an example I borrowed from the Seaborn docs:\n\nimport seaborn as sns\n\nsns.set_theme(style=\"whitegrid\")\n\n# Load the diamonds dataset\ndiamonds = sns.load_dataset(\"diamonds\")\n\n# Plot the distribution of clarity ratings, conditional on carat\nsns.displot(\n    data=diamonds,\n    x=\"carat\", hue=\"cut\",\n    kind=\"kde\", height=4, aspect=1.5,\n    multiple=\"fill\", clip=(0, None),\n    palette=\"ch:rot=-.25,hue=1,light=.75\",   \n)"
+    "text": "E aí, futuro construtor digital! 👷‍♂️ Se você quer erguer seu próprio site profissional mas acha que precisa ser um expert em programação, prepare-se para uma revolução: o Quarto é como ter uma equipe completa de arquitetos e engenheiros civis - só que em formato de software!"
   },
   {
     "objectID": "index.html#select-publication",
@@ -142,9 +142,9 @@
   {
     "objectID": "Sem Título.html",
     "href": "Sem Título.html",
-    "title": "Iconify Quarto Extension",
+    "title": "Untitled",
     "section": "",
-    "text": "This extension allows you to use Iconify icons in your Quarto HTML documents. It provides an {{&lt; iconify &gt;}} shortcode:\n\nMandatory &lt;icon&gt;:\n{{&lt; iconify &lt;icon&gt; &gt;}}\n{{&lt; iconify &lt;set:icon&gt; &gt;}}\nOptional &lt;set&gt; (default is fluent-emoji) &lt;size=...&gt;, &lt;width=...&gt;, &lt;height=...&gt;, &lt;flip=...&gt;, &lt;rotate=...&gt;, &lt;title=...&gt;, &lt;label=...&gt;, and &lt;inline=...&gt;:\n{{&lt; iconify &lt;set&gt; &lt;icon&gt; &lt;size=...&gt; &lt;width=...&gt; &lt;height=...&gt; &lt;flip=...&gt; &lt;rotate=...&gt; &lt;title=...&gt; &lt;label=...&gt; &lt;inline=...&gt; &gt;}}\nIf &lt;size=...&gt; is defined, &lt;width=...&gt; and &lt;height=...&gt; are not used.\nSee https://docs.iconify.design/iconify-icon/ for more details.\n\nFor example:\n\n\n\n\n\n\n\nShortcode\nIcon\n\n\n\n\n{{&lt; iconify exploding-head &gt;}}\n\n\n\n{{&lt; iconify fluent-emoji exploding-head &gt;}}\n\n\n\n{{&lt; iconify fluent-emoji:exploding-head &gt;}}\n\n\n\n{{&lt; iconify exploding-head size=2xl &gt;}}\n\n\n\n{{&lt; iconify exploding-head size=5x rotate=180deg &gt;}}\n\n\n\n{{&lt; iconify exploding-head size=Huge &gt;}}\n\n\n\n{{&lt; iconify fluent-emoji-high-contrast 1st-place-medal &gt;}}\n\n\n\n{{&lt; iconify twemoji 1st-place-medal &gt;}}\n\n\n\n{{&lt; iconify line-md loading-alt-loop &gt;}}\n\n\n\n{{&lt; iconify fa6-brands apple width=50px height=10px rotate=90deg flip=vertical &gt;}}\n\n\n\n{{&lt; iconify simple-icons:quarto &gt;}}"
+    "text": "E aí, futuro arquiteto digital! 👷‍♂️✨ Se você já sonhou em construir seu próprio site profissional, mas achou que precisava de um diploma em programação, tenho uma boa notícia: o Quarto é como ter uma equipe completa de engenheiros e arquitetos à sua disposição - só que em forma de software!\nPense comigo: assim como nenhum prédio surge do nada (primeiro vem a planta, o alicerce, a estrutura…), criar um site incrível também segue uma lógica de construção. E o Quarto? É exatamente o seu kit completo de ferramentas digitais para essa jornada!\n\n\n\nÉ como ter um projeto arquitetônico inteligente - ele já vem com a estrutura pronta, você só precisa decorar e personalizar\nSuporta múltiplas linguagens (R, Python, Julia) - como ter especialistas em diferentes áreas da construção\nVai do simples ao complexo - desde um “sobrado digital” até um “arranha-céu” de site profissional\n\nO melhor? Você não precisa ser um “engenheiro senior” em programação para começar. Se você já usou o RMarkdown (aquela “furadeira básica” da programação), vai se sentir em casa. O Quarto mantém o que já era bom e adiciona toda uma oficina de ferramentas profissionais!\n\n\n\nAntes de colocar a mão na massa (ou melhor, no código!), você vai precisar do kit essencial para construir seu site com Quarto. Pense nisso como aquela lista de materiais que todo mestre de obras checa antes de começar uma construção.\n\n\n\n\n\n\n\n\n\n\nFerramenta\nNa Vida Real Seria…\nPara Que Serve?\n\n\n\n\nR + RStudio\nSua grua e Central de Comando 🏗️\nAmbiente onde a mágica acontece (já vem com Quarto!)\n\n\nGit\nO arquiteto que anota todas as mudanças ✏️\nControla cada versão do seu projeto\n\n\nGitHub\nSeu terreno na internet 🌐\nOnde seu site vai ficar hospedado de graça!\n\n\n\n\n\n\nSe Git e GitHub soam como enigma pra você, não se preocupe! É como aprender a usar um nível a laser pela primeira vez — parece complicado até pegar o jeito. Dá uma olhada neste post antes de começar.\n\n\n\n\n\n\n\n\nAbra o RStudio (sua central de construção).\nCrie um novo projeto:\n\nProject: (None) &gt; New Project... &gt; New Directory &gt; Quarto Website \n\n\n\n\n\n\nDefina o nome do projeto (seu “endereço digital”):\n\nPara sites públicos: SeuUsuarioGitHub.github.io\n(Exemplo: joaosilva.github.io)\nPara testes: meu-site-teste (nome temporário)\n\n\n✅ Dica de Engenharia: Assim como um bom alicerce evita rachaduras, um nome bem definido evita retrabalhos futuros.\n\n\n\n\n\n\n\nSeu projeto inicial vem com os seguintes “componentes de construção”:\n\n\n\n\n\n\n\n\nArquivo\nFunção\nImportante?\n\n\n\n\nindex.qmd\nPágina principal (fachada do site)\n⚠️ Não renomeie!\n\n\nabout.qmd\nPágina “Sobre” (área institucional)\nPersonalizável\n\n\n_quarto.yml\nProjeto arquitetônico (configurações)\nCérebro do site\n\n\nstyles.css\nAcabamentos visuais (cores, fontes)\nOpcional\n\n\n\n\n\n\n\nNão renomeie! É obrigatório manter o nome index.qmd\nPermite mistura de:\n\nMarkdown (formatação simples)\nHTML (para elementos avançados)\nBlocos de código executáveis (em R, Python, Julia)\n\n---\ntitle: \"Meu Site Profissional\"  # Nome do projeto\n---\n\nDicas de Construção:\n\nAdicione uma introdução (sua “placa de inauguração”).\nUse blocos de código para funcionalidades dinâmicas (como “instalações elétricas” no site).\n\n\n\n\n\n\n\n\nNo _quarto.yml, defina o estilo do site:\nyaml\nCopy\nformat:\n  html:\n    theme: minty  # Tema claro\n    # Ou para modo dia/noite:\n    theme:\n      light: sandstone  # Dia\n      dark: slate       # Noite\n    css: styles.css     # Detalhes personalizados\n\n\n\nInclua links no YAML:\nyaml\nCopy\nabout:\n  links:\n    - icon: github\n      href: https://github.com/seuusuario\n    - icon: linkedin\n      href: https://linkedin.com/in/seuperfil\n\n\n\n\n\n\n\nAntes de publicar, visualize o site localmente:\nbash\nCopy\nquarto preview  # Abre uma prévia no navegador\n\n\n\n\nCrie o arquivo .nojekyll (alvará de construção):\nbash\nCopy\ntouch .nojekyll\nConfigure o GitHub Pages:\n\nAcesse Settings &gt; Pages no repositório.\nDefina Branch: main e Folder: /docs.\n\n\n🌍 Seu site estará no ar em:\nhttps://seuusuario.github.io\n\n\n\n\n\nAssim como um prédio precisa de reformas, seu site deve ser atualizado:\n\nAdicione novas páginas (ampliações).\nAtualize o conteúdo (reformas).\nSempre renderize antes de publicar (Build &gt; Render Website).\n\n🔧 Dica Final: Acompanhe o status na aba Actions do GitHub (seu “relatório de obras”).\n\n🏗️ Pronto para construir seu império digital? Com o Quarto, você tem todas as ferramentas para criar um site profissional, do alicerce ao acabamento! 🚀\n📐 Documentação Oficial do Quarto | [🏗️ Comece Agora]"
   },
   {
     "objectID": "about.html",
@@ -474,5 +474,355 @@
     "title": "Por que você deveria ter uma conta no GitHub, se você está começando em Ciência de Dados",
     "section": "",
     "text": "Git e GitHub são ferramentas essenciais para qualquer profissional que trabalhe com dados, código ou projetos digitais. Eles não apenas ajudam a manter o controle das versões do seu trabalho, mas também facilitam a colaboração e o compartilhamento de projetos.\nSe você está começando, não se preocupe em dominar tudo de uma vez. Comece com o básico, explore o GitHub Pages para hospedar seu site ou blog, e use o GitHub Desktop para uma experiência mais visual. Aos poucos, você se sentirá mais confortável com essas ferramentas.\nAté a próxima! 😄"
+  },
+  {
+    "objectID": "blog/third-post/index.html#o-que-é-o-quarto",
+    "href": "blog/third-post/index.html#o-que-é-o-quarto",
+    "title": "Criando seu site pessoal usando o Quarto",
+    "section": "",
+    "text": "O Quarto é um sistema de publicação baseado no Pandoc que permite criar conteúdo dinâmico usando R, Python, Julia e ObservableJS – com planos para incluir mais linguagens no futuro!\nSe você já usou RMarkdown, sabe como ele facilita a combinação de texto, código e resultados em um único documento renderizado. O Quarto mantém todas as melhores funcionalidades do RMarkdown e ainda as expande, tornando-as disponíveis para outras linguagens além do R.\nCom o Quarto, você pode criar:\n📄 Documentos\n🌐 Sites e blogs\n📚 Livros\n🎤 Apresentações\n📊 Dashboards\nExplore a documentação oficial para saber mais."
+  },
+  {
+    "objectID": "blog/third-post/index.html#criando-a-estrutura-do-seu-site",
+    "href": "blog/third-post/index.html#criando-a-estrutura-do-seu-site",
+    "title": "Criando seu site pessoal usando o Quarto",
+    "section": "Criando a estrutura do seu site",
+    "text": "Criando a estrutura do seu site\nEste guia explica como começar a usar o Quarto para criar seu site diretamente do RStudio."
+  },
+  {
+    "objectID": "blog/third-post/index.html#por-que-usar-o-rstudio-para-criar-seu-site-com-quarto",
+    "href": "blog/third-post/index.html#por-que-usar-o-rstudio-para-criar-seu-site-com-quarto",
+    "title": "Criando seu site pessoal usando o Quarto",
+    "section": "Por que usar o RStudio para criar seu site com Quarto?",
+    "text": "Por que usar o RStudio para criar seu site com Quarto?\nO RStudio oferece a maneira mais fácil e rápida de configurar um site com Quarto - tudo através de uma interface visual intuitiva, sem necessidade de digitar comandos complexos no terminal!\n\nComo criar a estrutura do site em 3 passos:\n\nInicie um novo projeto\n\nAbra o RStudio\nNo canto superior direito, clique no menu suspenso “Project: (None)”\n\n\n\n\n\n\n\n\n\n\n\n\nSelecione “New Project…” → “New Directory” → “Quarto Website”\n\n\n\n\n\n\nConfigure o projeto\n\nNo campo “Directory name”, digite:\n\nPara sites no GitHub Pages: SeuUsuarioGitHub.github.io\n(Exemplo: antonioacr.github.io)\nPara projetos locais: um nome descritivo como “site”\n\nSelecione a pasta de destino usando “Browse”\nClique em “Create Project”\n\n\n\n\n\n\nPronto!\nO RStudio criará automaticamente todos os arquivos básicos necessários para seu site Quarto.\n\n💡 Dica profissional: Se planeja publicar no GitHub Pages, usar o formato “usuário.github.io” como nome do projeto facilita muito o deploy posterior!"
+  },
+  {
+    "objectID": "blog/third-post/index.html#steps",
+    "href": "blog/third-post/index.html#steps",
+    "title": "Criando seu site pessoal usando o Quarto",
+    "section": "Steps:",
+    "text": "Steps:\n1 - Create a new R project with some necessary website files. Start by opening up RStudio and clicking on the A blue cube symbol with ‘R’ in the center is on the left. To the right are the words ‘Project: (None)’ in white, with a downward facing arrow, signifying a drop down menu button in the top right corner. Select New Project…\nChoose New Directory, then Quarto Website.\nData science jargon: Directory == Folder Throughout this document, we’ll use the words directory and folder interchangeably.\nAnd finally, fill out the Directory name: field (this is the name of your R project, and eventually, your remote (i.e. GitHub) repository name (Important: see note below re: naming!), and choose where to save your directory to using the Browse button. Click Create Project.\nName your project YourGitHubUsername.github.io if you plan to deploy using GitHub pages Because we’ll be using GitHub pages to publish / host our websites, it’s recommended that you name your project YourGitHubUsername.github.io (you’re allowed one user website with the github.io suffix) – for example, the project / GitHub repository, which contains the code for my personal website, is named samanthacsik.github.io. Otherwise, name it something reasonable (this will become the slug for your site if publishing with GitHub pages, so choose carefully). I’m calling my project mysite just for tutorial purposes only – you should definitely give yours a more practical / creative name.\nOrganizing R projects / git repositories There are lots of differing opinions on how to keep your R projects / git repositories organized on your computer. I personally save all of mine to a folder called git in my computer’s (Mac) home directory (e.g. Users/samanthacsik/git/) so everything is in one place.\nYou should now see a folder called mysite (or whatever you named your Quarto project) with a series of files (_quarto.yml, about.qmd, index.qmd, styles.css) that provide the scaffolding for your website in the Files tab (in the bottom right panel in RStudio, if you haven’t altered the pane layout).\n2 - Preview your very basic, but functional website by typing the following command in the Terminal:"
+  },
+  {
+    "objectID": "blog/third-post/index.html#what-is-quarto",
+    "href": "blog/third-post/index.html#what-is-quarto",
+    "title": "Criando seu site pessoal usando o Quarto",
+    "section": "What is Quarto?",
+    "text": "What is Quarto?\nQuarto is a publishing system built on Pandoc that allows users to create dynamic content using R, Python, Julia, and ObservableJS (with plans to add more languages too!).\nR users have long loved RMarkdown for combining prose, code, and outputs into single “knitted” documents. Quarto extends all of RMarkdown’s best features (plus many more!) to additional languages.\nYou can explore Quarto’s documentation to learn more about creating documents, websites, blogs, books, slides, dashboards, etc."
+  },
+  {
+    "objectID": "blog/third-post/index.html#create-the-scaffolding-for-your-website",
+    "href": "blog/third-post/index.html#create-the-scaffolding-for-your-website",
+    "title": "Criando seu site pessoal usando o Quarto",
+    "section": "Create the scaffolding for your website",
+    "text": "Create the scaffolding for your website\n\n\n\n\n\n\nBefore getting started…\n\n\n\nTo follow along, you’ll need:\n\nR & RStudio installed\nQuarto installed – Quarto is now included with RStudio v2022.07.1+ i.e. no need for a separate download / install if you have the latest version of RStudio\nA GitHub account -vGit installed / configured\n\nPara mais detalhes sobre o Git e GitHub leia https://antonioacr.github.io/site/blog/first-post/.\n\n\nThis document reviews how to get started with using Quarto to build your website using the RStudio IDE"
+  },
+  {
+    "objectID": "blog/third-post/index.html#why-use-rstudio-to-set-up-your-quarto-website",
+    "href": "blog/third-post/index.html#why-use-rstudio-to-set-up-your-quarto-website",
+    "title": "Criando seu site pessoal usando o Quarto",
+    "section": "Why use RStudio to set up your Quarto website?",
+    "text": "Why use RStudio to set up your Quarto website?\n\nCreate a new R project with some necessary website files. Start by opening up RStudio and clicking on the A blue cube symbol with ‘R’ in the center is on the left. To the right are the words ‘Project: (None)’ in white, with a downward facing arrow, signifying a drop down menu button in the top right corner. Select New Project…\n\nChoose New Directory, then Quarto Website.\nAnd finally, fill out the Directory name: field (this is the name of your R project, and eventually, your remote (i.e. GitHub) repository name (Important: see note below re: naming!), and choose where to save your directory to using the Browse button. Click Create Project.\nName your project YourGitHubUsername.github.io if you plan to deploy using GitHub pages Because we’ll be using GitHub pages to publish / host our websites, it’s recommended that you name your project YourGitHubUsername.github.io (you’re allowed one user website with the github.io suffix) – for example, the project / GitHub repository, which contains the code for my personal website, is named samanthacsik.github.io. Otherwise, name it something reasonable (this will become the slug for your site if publishing with GitHub pages, so choose carefully). I’m calling my project mysite just for tutorial purposes only – you should definitely give yours a more practical / creative name.\nYou should now see a folder called mysite (or whatever you named your Quarto project) with a series of files (_quarto.yml, about.qmd, index.qmd, styles.css) that provide the scaffolding for your website in the Files tab (in the bottom right panel in RStudio, if you haven’t altered the pane layout).\nTake a quick tour of your website files When you create a new Quarto website, a handful of files are generated by default:\nindex.qmd renders your website’s landing page. Whatever you add to this file will be the first content visitors see when they visit your site. Update the content of index.qmd (or any other website page) using markdown and / or HTML (you can mix and match both on the same page), add and execute code chunks and embed outputs, etc. Importantly, do not change the name of index.qmd – this is the default / expected name given to website landing / home pages. If you change the name of this file, you risk breaking your (eventual) deployment.\nabout.qmd is a regular ’ole website page. You’re able to change both the name of this file (e.g. change about.qmd to my-new-name.qmd) and / or the title of the file by updating its YAML – by default, the YAML only includes a title:\nabout.qmd 31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AFoAUQBBAHgAQQBEAGcAQQBNAFEAQQA1AEEARABZAEEATQBBAEEAMQBBAEMAMABBAE0AQQBCAGgAQQBHAE0AQQBaAEEAQQB0AEEARABRAEEAWgBnAEIAaABBAEcAVQBBAEwAUQBBADQAQQBHAEkAQQBPAFEAQQA1AEEAQwAwAEEATwBRAEIAagBBAEQARQBBAFkAZwBBADMAQQBHAEkAQQBaAEEAQQAzAEEARwBNAEEATQBBAEIAbQBBAEQARQBBAAoAcABvAHMAaQB0AGkAbwBuADoATgBBAEEAdwBBAEQATQBBAE0AQQBBAD0ACgBwAHIAZQBmAGkAeAA6AAoAcwBvAHUAcgBjAGUAOgBMAFEAQQB0AEEAQwAwAEEAQwBnAEIAMABBAEcAawBBAGQAQQBCAHMAQQBHAFUAQQBPAGcAQQBnAEEAQwBJAEEAUQBRAEIAaQBBAEcAOABBAGQAUQBCADAAQQBDAEkAQQBDAGcAQQB0AEEAQwAwAEEATABRAEEAPQAKAHMAdQBmAGYAaQB4ADoA:31b8e172-b470-440e-83d8-e6b185028602\nYAML is a human-readable data serialization language, which is commonly used for creating configuration files. Quarto recognizes lots of different YAML options for controlling the appearance and behavior of your individual website pages. YAML is always written at the top of a .qmd file and is denoted by a pair of “gates”, —. _quarto.yml is your website configuration file. Any document rendered within your project directory will automatically inherit the metadata defined in this project-level configuration file (though you can control metadata on a page-by-page basis by making edits to an individual page’s YAML, which will override any options specified in _quarto.yml). Importantly, this is where you define your website’s structure (e.g. your navbar, sidebar, footer, etc.). By default, your file should look similar to this: _quarto.yml project: type: website\nwebsite: title: “mysite” navbar: left: - href: index.qmd text: Home - about.qmd\nformat: html: theme: cosmo css: styles.css toc: true\nstyles.css is a stylesheet, where you can write CSS rules to alter the appearance of your website. We’ll actually create and use a different type of stylesheet (called a “sassy css file”, .scss) in the next workshop, Customizing Quarto Websites.\n.gitignore is a place where we can specify any files that we don’t want Git to track (i.e. that we want Git to ignore). This is not a “Quarto thing,” but rather a valuable file that lives inside git directories. One common use is to add any large data files that you don’t want to accidentally push to GitHub (GitHub isn’t designed to handle LARGE files).\nThe _site/ directory is where all of your rendered HTML (and other important) files live. When you render or preview your site (we’ll do this in the next step!), Quarto takes all of your .qmd files and converts them to .html files, and saves them to this folder (which is important because web browsers don’t know how to read .qmd files, but do know how to read .html files). We’re actually going to change the name of this folder once we configure our website for deployment, but _site is the default name that Quarto uses (we can leave as-is, for now). You don’t want to physically edit or move any files inside this directory (if you want to make a change to your website, update the .qmd or _quarto.yml file, then re-render).\n\nPreview your very basic, but functional website by typing the following command in the Terminal:"
+  },
+  {
+    "objectID": "blog/third-post/index.html#pré-requisitos-para-criar-um-site-com-quarto-no-rstudio",
+    "href": "blog/third-post/index.html#pré-requisitos-para-criar-um-site-com-quarto-no-rstudio",
+    "title": "Criando seu site pessoal usando o Quarto",
+    "section": "Pré-requisitos para criar um site com Quarto no RStudio",
+    "text": "Pré-requisitos para criar um site com Quarto no RStudio\nAntes de começar, você precisará de:\n✅ R e RStudio instalados (a partir da versão 2022.07.1, o RStudio já inclui o Quarto – não é necessário instalá-lo separadamente)\n✅ Conta no GitHub (para publicação via GitHub Pages)\n✅ Git instalado e configurado (para versionamento e deploy)\n📌 Dica: Se você não está familiarizado com Git e GitHub, confira este guia introdutório.\n\nPróximos passos\nEste tutorial mostrará como configurar a estrutura básica do seu site usando o RStudio, de forma simples e visual. Vamos começar?"
+  },
+  {
+    "objectID": "blog/third-post/index.html#o-que-é-o-quarto-1",
+    "href": "blog/third-post/index.html#o-que-é-o-quarto-1",
+    "title": "Criando seu site pessoal usando o Quarto",
+    "section": "O que é o Quarto?",
+    "text": "O que é o Quarto?\n\nO Quarto é um sistema de publicação técnica de código aberto que permite criar documentos dinâmicos e interativos, como artigos, blogs, sites, livros e apresentações. Ele suporta linguagens como R, Python, Julia e ObservableJS, permitindo que você combine texto, código e resultados em um único arquivo. Isso facilita a produção de materiais técnicos atualizáveis e reproduzíveis, ideais para relatórios, pesquisas e conteúdo educativo.\nCom o Quarto, você pode exportar seu trabalho em diversos formatos, incluindo HTML, PDF, Word e ePub, além de publicá-lo diretamente na web usando plataformas como o Quarto Pub. Ele é compatível com editores populares, como VS Code, RStudio e Jupyter Lab, e ainda oferece um editor visual integrado para simplificar a formatação. Seja para documentação, ensino ou análise de dados, o Quarto é uma ferramenta versátil para criação e compartilhamento de conteúdo técnico."
+  },
+  {
+    "objectID": "blog/third-post/index.html#por-que-usar-o-rstudio-para-criar-seu-site-com-quarto-1",
+    "href": "blog/third-post/index.html#por-que-usar-o-rstudio-para-criar-seu-site-com-quarto-1",
+    "title": "Criando seu site pessoal usando o Quarto",
+    "section": "Por que usar o RStudio para criar seu site com Quarto?",
+    "text": "Por que usar o RStudio para criar seu site com Quarto?\nA resposta é simples: praticidade! Com apenas alguns cliques, você consegue configurar todo o projeto. O RStudio oferece uma interface amigável que executa automaticamente os comandos complexos que você normalmente precisaria digitar manualmente no terminal.\nVantagens:\n\nConfiguração rápida e visual\nNão precisa memorizar comandos de terminal\nIdeal para quem prefere trabalhar com interface gráfica\nToda a estrutura do site é gerada automaticamente\n\nPor trás dos botões, o RStudio está rodando os mesmos comandos que você usaria no terminal - só que de forma mais acessível para iniciantes! commands."
+  },
+  {
+    "objectID": "blog/third-post/index.html#arquivos-principais",
+    "href": "blog/third-post/index.html#arquivos-principais",
+    "title": "Construindo Seu Site com Quarto: do Alicerce ao Acabamento",
+    "section": "Arquivos Principais",
+    "text": "Arquivos Principais\n\n📄 index.qmd\n\nPágina inicial do seu site - o primeiro conteúdo que os visitantes veem\nPode ser editado usando:\n\nMarkdown básico\nHTML (pode misturar ambos)\nBlocos de código executáveis com saídas incorporadas\n\n⚠️ Não renomeie este arquivo - “index” é o nome padrão necessário para páginas iniciais\n\n\n\n📄 about.qmd\n\nPágina secundária padrão (como “Sobre”)\nPode ser facilmente personalizada:\n\nRenomeie o arquivo (ex: contato.qmd)\nModifique o cabeçalho YAML:\nyaml\nCopy\n---\ntitle: \"Sobre Mim\"  # Altere o título aqui\n---"
+  },
+  {
+    "objectID": "blog/third-post/index.html#arquivos-de-configuração",
+    "href": "blog/third-post/index.html#arquivos-de-configuração",
+    "title": "Construindo Seu Site com Quarto: do Alicerce ao Acabamento",
+    "section": "Arquivos de Configuração",
+    "text": "Arquivos de Configuração\n\n⚙️ _quarto.yml\n\nCérebro do seu site - configurações globais\nControla:\n\nTítulo do site\nEstrutura de navegação\nTemas visuais\nComportamento geral\n\n\nExemplo padrão:\nyaml\nCopy\nproject:\n  type: website\n\nwebsite:\n  title: \"Meu Site\"\n  navbar:\n    left:\n      - href: index.qmd\n        text: Início\n      - about.qmd\n\nformat:\n  html:\n    theme: cosmo\n    css: styles.css\n    toc: true\n\n\n🎨 styles.css\n\nFolha de estilos para personalização visual\nPermite alterar cores, fontes, layouts etc.\n(Em workshops avançados usaremos arquivos .scss)"
+  },
+  {
+    "objectID": "blog/third-post/index.html#arquivos-do-sistema",
+    "href": "blog/third-post/index.html#arquivos-do-sistema",
+    "title": "Construindo Seu Site com Quarto: do Alicerce ao Acabamento",
+    "section": "Arquivos do Sistema",
+    "text": "Arquivos do Sistema\n\n🚫 .gitignore\n\nEspecifica arquivos que o Git deve ignorar\nÚtil para evitar enviar arquivos grandes ao GitHub\nNão é específico do Quarto, mas sim do Git\n\n\n\n📁 _site/\n\nPasta gerada automaticamente com:\n\nVersões HTML renderizadas das suas páginas\nArquivos necessários para visualização no navegador\n\n⚠️ Não edite manualmente - as alterações devem ser feitas nos arquivos .qmd"
+  },
+  {
+    "objectID": "blog/third-post/index.html#próximos-passos-1",
+    "href": "blog/third-post/index.html#próximos-passos-1",
+    "title": "Criando seu site pessoal usando o Quarto",
+    "section": "Próximos Passos",
+    "text": "Próximos Passos\nAgora que você conhece a estrutura básica, está pronto para:\n\nPersonalizar o conteúdo das páginas\nAjustar o _quarto.yml para seu gosto\nVisualizar as alterações renderizando o site\n\nLembre-se: todas as mudanças importantes devem ser feitas nos arquivos .qmd ou _quarto.yml, nunca diretamente na pasta _site/!"
+  },
+  {
+    "objectID": "blog/third-post/index.html#visualizando-seu-site-no-rstudio-sem-usar-terminal",
+    "href": "blog/third-post/index.html#visualizando-seu-site-no-rstudio-sem-usar-terminal",
+    "title": "Construindo Seu Site com Quarto: do Alicerce ao Acabamento",
+    "section": "Visualizando Seu Site no RStudio (Sem Usar Terminal)",
+    "text": "Visualizando Seu Site no RStudio (Sem Usar Terminal)\n\nComo Visualizar Seu Site Diretamente no RStudio\nPara ver seu site Quarto sem precisar do terminal, siga estes passos simples:\n\nLocalize o botão “Render” na barra de ferramentas do RStudio (ícone de teia de aranha ou botão “Preview”)\nClique em “Render Website” ou “Preview Website” no menu suspenso\n\n\n\nFuncionalidades da Visualização no RStudio\n✔ Abre uma janela de visualização integrada ou no seu navegador padrão\n✔ Atualiza automaticamente quando você salva as alterações nos arquivos\n✔ Mostra erros e mensagens úteis diretamente no painel “Viewer” do RStudio\n\n\nVantagens de Usar o RStudio para Visualização\n🔸 Totalmente integrado - não precisa alternar entre janelas\n🔸 Mais acessível - ideal para quem não está familiarizado com terminal\n🔸 Controle completo - todos os recursos em um só lugar\nDica: Enquanto trabalha, mantenha a visualização aberta para ver as mudanças instantaneamente!\n\n\nComo Parar a Visualização\n• Basta fechar a aba de visualização no RStudio\n• Ou clique no “X” no painel “Viewer”\nEsta abordagem mantém toda sua workflow dentro do ambiente familiar do RStudio, tornando o desenvolvimento mais intuitivo e eficiente."
+  },
+  {
+    "objectID": "ddd.html",
+    "href": "ddd.html",
+    "title": "Construindo Seu Site com Quarto: o Alicerce",
+    "section": "",
+    "text": "Imagine que construir um site é como erguer uma casa. O Quarto seria seu conjunto completo de ferramentas e materiais de construção - um sistema de publicação versátil que permite criar desde simples documentos até sites complexos, assim como um bom kit de ferramentas serve tanto para fazer uma prateleira quanto construir uma casa inteira.\nAssim como na construção civil temos diferentes especialidades (alvenaria, elétrica, hidráulica), o Quarto suporta múltiplas “linguagens de obra”:\n\nR (para análise de dados)\nPython (para programação geral)\nJulia (para computação científica)\nObservableJS (para visualizações interativas)\n\nSe você já usou RMarkdown, pode compará-lo a uma boa furadeira - funcional e confiável. O Quarto mantém essa qualidade, mas transforma sua caixa de ferramentas em uma oficina completa, adicionando suporte a mais linguagens e funcionalidades.\n\n\n\nAntes de começar sua “construção”, você precisará de:\n🛠️ Ferramentas básicas:\n\nR e RStudio instalados (a partir da versão 2022.07.1 já vem com Quarto incluso)\n\n🏗️ Equipamentos de obra:\n\nConta no GitHub (sua “área de armazenamento de materiais” na nuvem)\nGit instalado (seu “sistema de controle de versão” para a obra)\n\n📌 Dica de mestre de obras: Se não conhece Git/GitHub, veja este guia básico de construção digital.\n\n\n\nNo RStudio (sua “central de construção”), siga estes 3 passos simples:\n\nPreparar o terreno:\n\nAbra o RStudio\nClique em “Project: (None)” &gt; “New Project…” &gt; “New Directory” &gt; “Quarto Website”\n\nDefinir a planta baixa:\n\nNomeie seu projeto (sua “obra”):\n\nPara sites públicos: SeuUsuarioGitHub.github.io (sua “fachada digital”)\nPara testes: use um nome descritivo como “meu-site-teste”\n\nEscolha o local da obra (pasta do computador)\n\nIniciar a construção:\n\nClique em “Create Project” e… voilà! Seu “canteiro de obras digital” está pronto.\n\n\nDica profissional: Assim como na construção civil, um bom nome desde o início evita retrabalhos depois!\n\n\n\nAo criar o projeto, você recebe automaticamente todos os “materiais básicos”:\n\n\n\nindex.qmd: Sua “porta de entrada” (não renomeie!)\nabout.qmd: Seu “cartão de visitas” (personalizável)\n\n\n\n\n\n_quarto.yml: A “planta arquitetônica” do seu site\nstyles.css: Seu “catálogo de acabamentos” (cores, fontes)\n\n\n\n\n\n.gitignore: Lista de “materiais que não entram na obra”\n_site/: A “obra pronta” (não edite manualmente!)\n\n\n\n\n\nAssim como um arquiteto visualiza sua maquete, no RStudio você pode:\n\nLocalizar o botão “Render” (seu “visor de projeto”)\nClicar em “Render Website” para ver a prévia\nAcompanhar as mudanças instantaneamente ao salvar\n\nVantagens:\n\nTudo integrado em um único “canteiro de obras” (RStudio)\nAtualizações em tempo real (sem precisar de “parar a obra”)\nIdentificação imediata de “problemas na construção”\n\n\n\n\nAgora que você tem:\n✔ O terreno preparado\n✔ Os materiais básicos\n✔ A planta arquitetônica\nEstá pronto para:\n\nPersonalizar os “ambientes” (páginas do site)\nAjustar a “fachada” (design e navegação)\nAssentar o “piso” (conteúdo principal)\n\nLembre-se: Assim como na construção civil, todas as alterações devem ser feitas nos arquivos-fonte (.qmd e .yml), nunca diretamente na pasta _site/ (sua “obra pronta”)!\nQuer começar a construir? Seu “kit de ferramentas” Quarto já está esperando! 🚀"
+  },
+  {
+    "objectID": "ddd.html#o-quarto-seu-conjunto-completo-de-ferramentas-digitais",
+    "href": "ddd.html#o-quarto-seu-conjunto-completo-de-ferramentas-digitais",
+    "title": "Construindo Seu Site com Quarto: o Alicerce",
+    "section": "",
+    "text": "Imagine que construir um site é como erguer uma casa. O Quarto seria seu conjunto completo de ferramentas e materiais de construção - um sistema de publicação versátil que permite criar desde simples documentos até sites complexos, assim como um bom kit de ferramentas serve tanto para fazer uma prateleira quanto construir uma casa inteira.\nAssim como na construção civil temos diferentes especialidades (alvenaria, elétrica, hidráulica), o Quarto suporta múltiplas “linguagens de obra”:\n\nR (para análise de dados)\nPython (para programação geral)\nJulia (para computação científica)\nObservableJS (para visualizações interativas)\n\nSe você já usou RMarkdown, pode compará-lo a uma boa furadeira - funcional e confiável. O Quarto mantém essa qualidade, mas transforma sua caixa de ferramentas em uma oficina completa, adicionando suporte a mais linguagens e funcionalidades."
+  },
+  {
+    "objectID": "ddd.html#materiais-necessários-para-sua-obra-digital",
+    "href": "ddd.html#materiais-necessários-para-sua-obra-digital",
+    "title": "Construindo Seu Site com Quarto: o Alicerce",
+    "section": "",
+    "text": "Antes de começar sua “construção”, você precisará de:\n🛠️ Ferramentas básicas:\n\nR e RStudio instalados (a partir da versão 2022.07.1 já vem com Quarto incluso)\n\n🏗️ Equipamentos de obra:\n\nConta no GitHub (sua “área de armazenamento de materiais” na nuvem)\nGit instalado (seu “sistema de controle de versão” para a obra)\n\n📌 Dica de mestre de obras: Se não conhece Git/GitHub, veja este guia básico de construção digital."
+  },
+  {
+    "objectID": "ddd.html#primeiro-passo-lançando-os-fundamentos",
+    "href": "ddd.html#primeiro-passo-lançando-os-fundamentos",
+    "title": "Construindo Seu Site com Quarto: o Alicerce",
+    "section": "",
+    "text": "No RStudio (sua “central de construção”), siga estes 3 passos simples:\n\nPreparar o terreno:\n\nAbra o RStudio\nClique em “Project: (None)” &gt; “New Project…” &gt; “New Directory” &gt; “Quarto Website”\n\nDefinir a planta baixa:\n\nNomeie seu projeto (sua “obra”):\n\nPara sites públicos: SeuUsuarioGitHub.github.io (sua “fachada digital”)\nPara testes: use um nome descritivo como “meu-site-teste”\n\nEscolha o local da obra (pasta do computador)\n\nIniciar a construção:\n\nClique em “Create Project” e… voilà! Seu “canteiro de obras digital” está pronto.\n\n\nDica profissional: Assim como na construção civil, um bom nome desde o início evita retrabalhos depois!"
+  },
+  {
+    "objectID": "ddd.html#conhecendo-seu-canteiro-de-obras-digital",
+    "href": "ddd.html#conhecendo-seu-canteiro-de-obras-digital",
+    "title": "Construindo Seu Site com Quarto: o Alicerce",
+    "section": "",
+    "text": "Ao criar o projeto, você recebe automaticamente todos os “materiais básicos”:\n\n\n\nindex.qmd: Sua “porta de entrada” (não renomeie!)\nabout.qmd: Seu “cartão de visitas” (personalizável)\n\n\n\n\n\n_quarto.yml: A “planta arquitetônica” do seu site\nstyles.css: Seu “catálogo de acabamentos” (cores, fontes)\n\n\n\n\n\n.gitignore: Lista de “materiais que não entram na obra”\n_site/: A “obra pronta” (não edite manualmente!)"
+  },
+  {
+    "objectID": "ddd.html#visualizando-sua-obra-em-tempo-real",
+    "href": "ddd.html#visualizando-sua-obra-em-tempo-real",
+    "title": "Construindo Seu Site com Quarto: o Alicerce",
+    "section": "",
+    "text": "Assim como um arquiteto visualiza sua maquete, no RStudio você pode:\n\nLocalizar o botão “Render” (seu “visor de projeto”)\nClicar em “Render Website” para ver a prévia\nAcompanhar as mudanças instantaneamente ao salvar\n\nVantagens:\n\nTudo integrado em um único “canteiro de obras” (RStudio)\nAtualizações em tempo real (sem precisar de “parar a obra”)\nIdentificação imediata de “problemas na construção”"
+  },
+  {
+    "objectID": "ddd.html#próximos-passos-na-sua-construção-digital",
+    "href": "ddd.html#próximos-passos-na-sua-construção-digital",
+    "title": "Construindo Seu Site com Quarto: o Alicerce",
+    "section": "",
+    "text": "Agora que você tem:\n✔ O terreno preparado\n✔ Os materiais básicos\n✔ A planta arquitetônica\nEstá pronto para:\n\nPersonalizar os “ambientes” (páginas do site)\nAjustar a “fachada” (design e navegação)\nAssentar o “piso” (conteúdo principal)\n\nLembre-se: Assim como na construção civil, todas as alterações devem ser feitas nos arquivos-fonte (.qmd e .yml), nunca diretamente na pasta _site/ (sua “obra pronta”)!\nQuer começar a construir? Seu “kit de ferramentas” Quarto já está esperando! 🚀"
+  },
+  {
+    "objectID": "Sem Título.html#lançando-os-fundamentos-configurando-o-projeto",
+    "href": "Sem Título.html#lançando-os-fundamentos-configurando-o-projeto",
+    "title": "Untitled",
+    "section": "",
+    "text": "Abra o RStudio (sua central de construção).\nCrie um novo projeto:\n\nProject: (None) &gt; New Project... &gt; New Directory &gt; Quarto Website \n\n\n\n\n\n\nDefina o nome do projeto (seu “endereço digital”):\n\nPara sites públicos: SeuUsuarioGitHub.github.io\n(Exemplo: joaosilva.github.io)\nPara testes: meu-site-teste (nome temporário)\n\n\n✅ Dica de Engenharia: Assim como um bom alicerce evita rachaduras, um nome bem definido evita retrabalhos futuros."
+  },
+  {
+    "objectID": "Sem Título.html#estruturando-o-site-a-planta-baixa-digital",
+    "href": "Sem Título.html#estruturando-o-site-a-planta-baixa-digital",
+    "title": "Untitled",
+    "section": "",
+    "text": "Seu projeto inicial vem com os seguintes “componentes de construção”:\n\n\n\n\n\n\n\n\nArquivo\nFunção\nImportante?\n\n\n\n\nindex.qmd\nPágina principal (fachada do site)\n⚠️ Não renomeie!\n\n\nabout.qmd\nPágina “Sobre” (área institucional)\nPersonalizável\n\n\n_quarto.yml\nProjeto arquitetônico (configurações)\nCérebro do site\n\n\nstyles.css\nAcabamentos visuais (cores, fontes)\nOpcional\n\n\n\n\n\n\n\nNão renomeie! É obrigatório manter o nome index.qmd\nPermite mistura de:\n\nMarkdown (formatação simples)\nHTML (para elementos avançados)\nBlocos de código executáveis (em R, Python, Julia)\n\n---\ntitle: \"Meu Site Profissional\"  # Nome do projeto\n---\n\nDicas de Construção:\n\nAdicione uma introdução (sua “placa de inauguração”).\nUse blocos de código para funcionalidades dinâmicas (como “instalações elétricas” no site)."
+  },
+  {
+    "objectID": "Sem Título.html#acabamentos-e-instalações-personalizando-o-site",
+    "href": "Sem Título.html#acabamentos-e-instalações-personalizando-o-site",
+    "title": "Untitled",
+    "section": "",
+    "text": "No _quarto.yml, defina o estilo do site:\nyaml\nCopy\nformat:\n  html:\n    theme: minty  # Tema claro\n    # Ou para modo dia/noite:\n    theme:\n      light: sandstone  # Dia\n      dark: slate       # Noite\n    css: styles.css     # Detalhes personalizados\n\n\n\nInclua links no YAML:\nyaml\nCopy\nabout:\n  links:\n    - icon: github\n      href: https://github.com/seuusuario\n    - icon: linkedin\n      href: https://linkedin.com/in/seuperfil"
+  },
+  {
+    "objectID": "Sem Título.html#vistoria-final-renderização-e-publicação",
+    "href": "Sem Título.html#vistoria-final-renderização-e-publicação",
+    "title": "Untitled",
+    "section": "",
+    "text": "Antes de publicar, visualize o site localmente:\nbash\nCopy\nquarto preview  # Abre uma prévia no navegador\n\n\n\n\nCrie o arquivo .nojekyll (alvará de construção):\nbash\nCopy\ntouch .nojekyll\nConfigure o GitHub Pages:\n\nAcesse Settings &gt; Pages no repositório.\nDefina Branch: main e Folder: /docs.\n\n\n🌍 Seu site estará no ar em:\nhttps://seuusuario.github.io"
+  },
+  {
+    "objectID": "Sem Título.html#manutenção-e-expansões-futuras",
+    "href": "Sem Título.html#manutenção-e-expansões-futuras",
+    "title": "Untitled",
+    "section": "",
+    "text": "Assim como um prédio precisa de reformas, seu site deve ser atualizado:\n\nAdicione novas páginas (ampliações).\nAtualize o conteúdo (reformas).\nSempre renderize antes de publicar (Build &gt; Render Website).\n\n🔧 Dica Final: Acompanhe o status na aba Actions do GitHub (seu “relatório de obras”).\n\n🏗️ Pronto para construir seu império digital? Com o Quarto, você tem todas as ferramentas para criar um site profissional, do alicerce ao acabamento! 🚀\n📐 Documentação Oficial do Quarto | [🏗️ Comece Agora]"
+  },
+  {
+    "objectID": "Sem Título.html#kit-do-construtor-digital-seu-primeiro-carrinho-de-ferramentas",
+    "href": "Sem Título.html#kit-do-construtor-digital-seu-primeiro-carrinho-de-ferramentas",
+    "title": "Untitled",
+    "section": "",
+    "text": "Antes de colocar a mão na massa (ou melhor, no código!), você vai precisar do kit essencial para construir seu site com Quarto. Pense nisso como aquela lista de materiais que todo mestre de obras checa antes de começar uma construção.\n\n\n\n\n\n\n\n\n\n\nFerramenta\nNa Vida Real Seria…\nPara Que Serve?\n\n\n\n\nR + RStudio\nSua grua e Central de Comando 🏗️\nAmbiente onde a mágica acontece (já vem com Quarto!)\n\n\nGit\nO arquiteto que anota todas as mudanças ✏️\nControla cada versão do seu projeto\n\n\nGitHub\nSeu terreno na internet 🌐\nOnde seu site vai ficar hospedado de graça!\n\n\n\n\n\n\nSe Git e GitHub soam como enigma pra você, não se preocupe! É como aprender a usar um nível a laser pela primeira vez — parece complicado até pegar o jeito. Dá uma olhada neste post antes de começar."
+  },
+  {
+    "objectID": "blog/third-post/index.html#kit-do-construtor-digital-seu-primeiro-carrinho-de-ferramentas",
+    "href": "blog/third-post/index.html#kit-do-construtor-digital-seu-primeiro-carrinho-de-ferramentas",
+    "title": "Construindo Seu Site com Quarto: do Alicerce ao Acabamento",
+    "section": "🧰 Kit do Construtor Digital: Seu Primeiro Carrinho de Ferramentas",
+    "text": "🧰 Kit do Construtor Digital: Seu Primeiro Carrinho de Ferramentas\nAntes de colocar a mão na massa (ou melhor, no código!), você vai precisar do kit essencial para construir seu site com Quarto. Pense nisso como aquela lista de materiais que todo mestre de obras checa antes de começar uma construção.\n\n📦 O Que Você Precisa?\n\n\n\n\n\n\n\n\nFerramenta\nNa Vida Real Seria…\nPara Que Serve?\n\n\n\n\nR + RStudio\nSua grua e Central de Comando 🏗️\nAmbiente onde a mágica acontece (já vem com Quarto!)\n\n\nGit\nO arquiteto que anota todas as mudanças ✏️\nControla cada versão do seu projeto\n\n\nGitHub\nSeu terreno na internet 🌐\nOnde seu site vai ficar hospedado de graça!\n\n\n\n\n\n💡 Dica Valiosa do Mestre de Obras\nSe Git e GitHub soam como enigma pra você, não se preocupe! É como aprender a usar um nível a laser pela primeira vez — parece complicado até pegar o jeito. Dá uma olhada neste post antes de começar."
+  },
+  {
+    "objectID": "blog/third-post/index.html#lançando-os-fundamentos-configurando-o-projeto",
+    "href": "blog/third-post/index.html#lançando-os-fundamentos-configurando-o-projeto",
+    "title": "Construindo Seu Site com Quarto: do Alicerce ao Acabamento",
+    "section": "Lançando os Fundamentos: Configurando o Projeto",
+    "text": "Lançando os Fundamentos: Configurando o Projeto\n\nAbra o RStudio\nNo canto superior direito, clique no menu suspenso “Project: (None)”\n\n\n\n\n\n\n\n\n\n\n\n\nSelecione “New Project…” → “New Directory” → “Quarto Website\n\n\n\n\n\n\n\nConfigure o projeto\n\nNo campo “Directory name”, digite:\n\nPara sites no GitHub Pages: SeuUsuarioGitHub.github.io\n(Exemplo: antonioacr.github.io)\nPara projetos locais: um nome descritivo como “site”\n\nSelecione a pasta de destino usando “Browse”\nClique em “Create Project”\n\n\n\n\n\n\nPronto!\nO RStudio criará automaticamente todos os arquivos básicos necessários para seu site Quarto.\n\n💡 Dica profissional: Se planeja publicar no GitHub Pages, usar o formato “usuário.github.io” como nome do projeto facilita muito o deploy posterior!"
+  },
+  {
+    "objectID": "blog/third-post/index.html#o-quarto-seu-conjunto-completo-de-ferramentas-digitais",
+    "href": "blog/third-post/index.html#o-quarto-seu-conjunto-completo-de-ferramentas-digitais",
+    "title": "Construindo Seu Site com Quarto: do Alicerce ao Acabamento",
+    "section": "O Quarto: Seu Conjunto Completo de Ferramentas Digitais",
+    "text": "O Quarto: Seu Conjunto Completo de Ferramentas Digitais\nPense no Quarto como o seu kit completo de construção digital - um sistema versátil que permite criar desde documentos simples até sites complexos, assim como uma boa caixa de ferramentas serve para diversos projetos.\nSuporta múltiplas “linguagens de obra”:\n\nR (análise de dados)\nPython (programação geral)\nJulia (computação científica)\nObservableJS (visualizações interativas)\n\nSe o RMarkdown era sua furadeira confiável, o Quarto é toda uma oficina equipada, mantendo o que já funcionava e adicionando novos recursos."
+  },
+  {
+    "objectID": "blog/third-post/index.html#materiais-necessários-para-sua-construção-digital",
+    "href": "blog/third-post/index.html#materiais-necessários-para-sua-construção-digital",
+    "title": "Construindo Seu Site com Quarto: do Alicerce ao Acabamento",
+    "section": "Materiais Necessários para Sua Construção Digital",
+    "text": "Materiais Necessários para Sua Construção Digital\n🛠️ Ferramentas básicas:\n\nR e RStudio (a partir da v2022.07.1 já inclui Quarto)\n\n🏗️ Equipamentos:\n\nConta no GitHub (seu armazenamento na nuvem)\nGit instalado (controle de versão)\n\n📌 Dica profissional: Para Git/GitHub iniciantes, recomendo este guia básico."
+  },
+  {
+    "objectID": "blog/third-post/index.html#lançando-os-fundamentos-em-3-passos",
+    "href": "blog/third-post/index.html#lançando-os-fundamentos-em-3-passos",
+    "title": "Construindo Seu Site com Quarto: do Alicerce ao Acabamento",
+    "section": "Lançando os Fundamentos em 3 Passos",
+    "text": "Lançando os Fundamentos em 3 Passos\n\nPrepare o terreno\n\nAbra o RStudio\nNo canto superior direito, clique no menu suspenso “Project: (None)”\n\n\n\n\n\n\n\n\n\n\n\n\nSelecione “New Project…” → “New Directory” → “Quarto Website\n\n\n\n\n\n\nConfigure o projeto\n\nNo campo “Directory name”, digite um nome descritivo como “site”\nSelecione a pasta de destino usando “Browse”\nClique em “Create Project”\n\n\n\n\n\n\nPronto!\nO RStudio criará automaticamente todos os arquivos básicos necessários para seu site Quarto.\n\n✅ Dica de Engenharia: Assim como um bom alicerce evita rachaduras, um nome bem definido evita retrabalhos futuros."
+  },
+  {
+    "objectID": "blog/third-post/index.html#personalizando-seu-projeto",
+    "href": "blog/third-post/index.html#personalizando-seu-projeto",
+    "title": "Construindo Seu Site com Quarto: do Alicerce ao Acabamento",
+    "section": "Personalizando Seu Projeto",
+    "text": "Personalizando Seu Projeto\n\n🎨 Onde Começar a Personalizar\nSeu site inicial vem com um design padrão do Quarto. Vamos aprender onde fazer as primeiras customizações:\nImportante: Nunca altere arquivos manualmente na pasta /docs! Ela é gerada automaticamente quando você renderiza o site (Build &gt; Render Website) e contém as versões finais em HTML.\n\n\n✏️ Editando a Página Principal (index.qmd)\n⚠️ Não renomeie o arquivo index.qmd - ele é essencial para o funcionamento do site!\nDicas para personalizar:\n\nAtualize o título no YAML (mude de “mysite” para seu nome)\nSubstitua o texto de exemplo por seu conteúdo\nAdicione uma breve introdução sobre você\n\nyaml\nCopy\n---\ntitle: \"Seu Nome Aqui\"\n---\nVisualize as mudanças em tempo real:\n\nUse quarto preview no Terminal ou\nClique em “Render Website” no RStudio\n\n\n\n🖼️ Usando Templates Pré-prontos\nAdicione um template especial ao YAML para melhorar o layout:\nyaml\nCopy\nabout: \n  template: jolla\n  image: media/sua-foto.jpg\n  image-shape: rounded\n  links:\n    - icon: github\n      href: https://github.com/seuusuario\n    - icon: envelope\n      href: mailto:seu@email.com\nEscolha entre 5 templates disponíveis e ajuste:\n\nFormato da imagem (redonda, quadrada, retangular)\nLinks para redes sociais\nLargura da imagem\n\n\n\n⚙️ Personalizando o _quarto.yml\nEste arquivo controla a aparência geral do site:\nyaml\nCopy\nwebsite:\n  title: \"Título do Seu Site\"\n  navbar:\n    left:\n      - href: index.qmd\n        text: Início\n      - about.qmd\n      - resources.qmd  # Nova página adicionada\nPrincipais ajustes:\n\nMude o título do site (aparece na aba do navegador)\nAjuste o layout para full para usar mais espaço\nAdicione novas páginas ao menu de navegação\n\n\n\n🎭 Mudando o Tema Visual\nSubstitua o tema padrão (cosmo) por um dos 25 temas Bootswatch:\nyaml\nCopy\nformat:\n  html:\n    theme: minty  # Tema claro\n    # Ou para modo claro/escuro:\n    theme: \n      light: minty\n      dark: solar\n    css: styles.css\n\n\n📝 Adicionando Novas Páginas\n\nCrie um novo arquivo .qmd (File &gt; New File &gt; Quarto Document)\nAdicione conteúdo e YAML básico:\n\nyaml\nCopy\n---\ntitle: \"Recursos Favoritos\"\n---\n\nAtualize o _quarto.yml para incluir no menu:\n\nyaml\nCopy\nnavbar:\n  left:\n    - href: resources.qmd\n      text: Recursos\nLembrete final: Sempre renderize o site (Build &gt; Render Website) antes de publicar as mudanças!"
+  },
+  {
+    "objectID": "blog/third-post/index.html#conhecendo-seus-materiais-de-construção",
+    "href": "blog/third-post/index.html#conhecendo-seus-materiais-de-construção",
+    "title": "Construindo Seu Site com Quarto: do Alicerce ao Acabamento",
+    "section": "Conhecendo Seus Materiais de Construção",
+    "text": "Conhecendo Seus Materiais de Construção\n\n📐 Plantas e Projetos\n\nindex.qmd: Porta de entrada (nome fixo)\nabout.qmd: Cartão de visitas (personalizável)\n\n\n\n🏗️ Estrutura\n\n_quarto.yml: Planta arquitetônica\nstyles.css: Acabamentos e estilos\n\n\n\n🚧 Controles\n\n.gitignore: Materiais excluídos"
+  },
+  {
+    "objectID": "blog/third-post/index.html#publicando-seu-site-com-github-pages",
+    "href": "blog/third-post/index.html#publicando-seu-site-com-github-pages",
+    "title": "Construindo Seu Site com Quarto: do Alicerce ao Acabamento",
+    "section": "Publicando Seu Site com GitHub Pages",
+    "text": "Publicando Seu Site com GitHub Pages\n\nEscolhendo a Hospedagem\nAssim como uma casa pronta precisa de um endereço, seu site precisa ser hospedado. Vamos usar o GitHub Pages, um serviço gratuito que transforma seu repositório GitHub em um site acessível publicamente.\n\n\nConfigurações Essenciais\n\nCrie o arquivo .nojekyll (para desativar processamentos indesejados do GitHub):\n\nPelo Terminal: touch .nojekyll\nOu no RStudio: File &gt; New File &gt; Text File &gt; Salve como .nojekyll\n\nConfigure o diretório de saída no _quarto.yml:\nyaml\nCopy\nproject:\n  type: website\n  output-dir: docs\nRemova a pasta _site/ (se existir):\n\nPelo RStudio: Marque a pasta _site &gt; Delete\nOu pelo Terminal: git rm -r _site\n\n\n\n\nPreparando para Publicar\n🔨 Renderize seu site (etapa obrigatória!):\n\nNo RStudio: Build &gt; Render Website\nOu pelo Terminal: quarto render\n\n⚠️ Importante:\n\nPreview ≠ Renderização (só a renderização prepara para deploy)\nSempre renderize antes de publicar alterações\n\n\n\nEnviando para o GitHub\n\nAdicione os arquivos: Git tab &gt; Marque todas as alterações\nFaça o commit: Botão Commit &gt; Mensagem &gt; Commit\nEnvie para nuvem: Botão Push (seta verde)\n\n\n\nConfigurando o GitHub Pages\n\nAcesse Settings &gt; Pages no seu repositório\nConfigure:\n\nBranch: main\nFolder: /docs\n\nSalve e aguarde alguns minutos\n\n🌐 Seu site estará vivo em:\nhttps://seuusuario.github.io/nome-do-repositorio\n\n\nMonitorando a Publicação\nAcompanhe o processo:\n\nNa aba Actions do GitHub\nVeja status, tempo de deploy e erros (se ocorrerem)\n\n🎉 Parabéns! Seu site está no ar. Agora é hora de:"
+  },
+  {
+    "objectID": "blog/third-post/index.html#próximos-passos",
+    "href": "blog/third-post/index.html#próximos-passos",
+    "title": "Construindo Seu Site com Quarto: do Alicerce ao Acabamento",
+    "section": "Próximos Passos",
+    "text": "Próximos Passos\nAgora que você conhece a estrutura básica, está pronto para:\n\nPersonalizar o conteúdo das páginas\nAjustar o _quarto.yml para seu gosto\nVisualizar as alterações renderizando o site\n\nLembre-se: todas as mudanças importantes devem ser feitas nos arquivos .qmd ou _quarto.yml, nunca diretamente na pasta _site/!"
+  },
+  {
+    "objectID": "blog/third-post/index.html#lançando-os-fundamentos-em-3-passos-1",
+    "href": "blog/third-post/index.html#lançando-os-fundamentos-em-3-passos-1",
+    "title": "Construindo Seu Site com Quarto: do Alicerce ao Acabamento",
+    "section": "Lançando os Fundamentos em 3 Passos",
+    "text": "Lançando os Fundamentos em 3 Passos\n\nPreparar o terreno:\n\nAbra o RStudio\nClique em “Project: (None)” &gt; “New Project…” &gt; “New Directory” &gt; “Quarto Website”\n\nDefinir a planta:\n\nNome do projeto:\n\nSites públicos: SeuUsuarioGitHub.github.io\nTestes: “meu-site-teste”\n\nEscolha a localização\n\nIniciar a obra:\n\n“Create Project” e seu canteiro digital está pronto!\n\n\nDica: Um bom nome inicial evita retrabalhos, como na construção civil."
+  },
+  {
+    "objectID": "blog/third-post/index.html#estruturando-o-site-a-planta-baixa-digital",
+    "href": "blog/third-post/index.html#estruturando-o-site-a-planta-baixa-digital",
+    "title": "Construindo Seu Site com Quarto: do Alicerce ao Acabamento",
+    "section": "Estruturando o Site: A Planta Baixa Digital",
+    "text": "Estruturando o Site: A Planta Baixa Digital\n\nArquivos Essenciais (Elementos Estruturais)\nSeu projeto inicial vem com os seguintes “componentes de construção”:\n\n\n\n\n\n\n\n\nArquivo\nFunção\nImportante?\n\n\n\n\nindex.qmd\nPágina principal (fachada do site)\n⚠️ Não renomeie!\n\n\nabout.qmd\nPágina “Sobre” (área institucional)\nPersonalizável\n\n\n_quarto.yml\nProjeto arquitetônico (configurações)\nCérebro do site\n\n\nstyles.css\nAcabamentos visuais (cores, fontes)\nOpcional\n\n\n_site/\nPasta com versão renderizada do site (HTML)\n⚠️ Não edite manualmente!\n\n\n\n\n\nO Arquivo index.qmd: Personalizando a Fachada\nO arquivo index.qmd é a porta de entrada do seu site — ele define a primeira impressão que seus visitantes terão! ✨\n\nNão renomeie! É obrigatório manter o nome index.qmd\nPermite mistura de:\n\nMarkdown (formatação simples)\nHTML (para elementos avançados)\nBlocos de código executáveis (em R, Python, Julia)\n\n\n`index.qmd`\n---\ntitle: \"site\"\n---\n\n\nO Arquivo about.qmd: Sua Página Personalizável no Quarto\nSe o index.qmd é a porta de entrada do seu site, o about.qmd é aquele cômodo que você pode redecorar do zero! 🎨✨\nDiferente da página principal (que precisa manter o nome index.qmd), essa aqui é totalmente flexível – você pode:\n\nRenomear o arquivo para o que fizer sentido (ex: portfolio.qmd, servicos.qmd)\nPersonalizar o cabeçalho YAML para mudar título, layout e comportamento\nCriar qualquer tipo de conteúdo (texto, imagens, códigos, tabelas)"
+  },
+  {
+    "objectID": "blog/third-post/index.html#acabamentos-e-instalações-personalizando-o-site",
+    "href": "blog/third-post/index.html#acabamentos-e-instalações-personalizando-o-site",
+    "title": "Construindo Seu Site com Quarto: do Alicerce ao Acabamento",
+    "section": "Acabamentos e Instalações: Personalizando o Site",
+    "text": "Acabamentos e Instalações: Personalizando o Site\n\nPersonalizando a Fachada (index.qmd)\n\nNão renomeie! É obrigatório manter o nome index.qmd\nPermite mistura de:\n\nMarkdown (formatação simples)\nHTML (para elementos avançados)\nBlocos de código executáveis (em R, Python, Julia)\n\n\nNo _quarto.yml, defina o estilo do site:\nformat:\n  html:\n    theme: minty  # Tema claro\n    # Ou para modo dia/noite:\n    theme:\n      light: sandstone  # Dia\n      dark: slate       # Noite\n    css: styles.css     # Detalhes personalizados\n\n\nAdicionando Redes Sociais (Sistemas de Comunicação)\nInclua links no YAML:\nabout:\n  links:\n    - icon: github\n      href: https://github.com/seuusuario\n    - icon: linkedin\n      href: https://linkedin.com/in/seuperfil"
+  },
+  {
+    "objectID": "blog/third-post/index.html#o-arquivo-_quarto.yml-o-cérebro-do-seu-site",
+    "href": "blog/third-post/index.html#o-arquivo-_quarto.yml-o-cérebro-do-seu-site",
+    "title": "Construindo Seu Site com Quarto: do Alicerce ao Acabamento",
+    "section": "O Arquivo _quarto.yml: O Cérebro do Seu Site",
+    "text": "O Arquivo _quarto.yml: O Cérebro do Seu Site\nSe o seu site fosse uma casa, o _quarto.yml seria a planta arquitetônica que define toda a estrutura – desde os cômodos (páginas) até os acabamentos (temas e estilos).\n\nO Que Ele Controla?\n\n📌 Estrutura principal (menu de navegação, rodapé, barras laterais)\n🎨 Aparência global (tema, cores, fontes)\n⚙️ Configurações técnicas (diretórios, plugins, comportamentos)\n\nPor padrão, ele vem assim:\n`quarto.yml`\nproject: \n  type: website\n\nwebsite:\n  title: \"mysite\"\n  navbar:\n    left:\n      - href: index.qmd\n        text: Home\n      - about.qmd\n\nformat:\n  html:\n    theme: cosmo\n    css: styles.css\n    toc: true"
+  },
+  {
+    "objectID": "blog/third-post/index.html#o-arquivo-styles.css-a-sua-paleta-de-cores-digital",
+    "href": "blog/third-post/index.html#o-arquivo-styles.css-a-sua-paleta-de-cores-digital",
+    "title": "Construindo Seu Site com Quarto: do Alicerce ao Acabamento",
+    "section": "O arquivo styles.css: A Sua Paleta de Cores Digital",
+    "text": "O arquivo styles.css: A Sua Paleta de Cores Digital\nPense no styles.css como a caixa de tintas do seu site - é aqui que você define cores, fontes e todos os detalhes visuais que dão personalidade ao seu projeto. Enquanto o _quarto.yml cuida da estrutura, esse arquivo é responsável pelo visual!"
+  },
+  {
+    "objectID": "blog/third-post/index.html#a-pasta-_site-seu-canteiro-de-obras-finalizado",
+    "href": "blog/third-post/index.html#a-pasta-_site-seu-canteiro-de-obras-finalizado",
+    "title": "Construindo Seu Site com Quarto: do Alicerce ao Acabamento",
+    "section": "A Pasta _site/: Seu Canteiro de Obras Finalizado",
+    "text": "A Pasta _site/: Seu Canteiro de Obras Finalizado\nPense na pasta _site/ como o resultado da sua construção depois da vistoria final - é onde ficam todas as peças prontas para uso, já convertidas no formato que os “visitantes” (navegadores) conseguem entender.\n\n🔨 Como Funciona?\n\nO Quarto age como sua equipe de acabamento, transformando:\n\nSeus planos de obra (.qmd) → em estruturas prontas (.html)\nSeus projetos (.yml) → em detalhes executados (configurações aplicadas)\n\n\n\n\n⚠️ Regra de Ouro da Construção\n\nNunca mexa diretamente nos arquivos desta pasta\n\nÉ como tentar repintar uma parede já acabada - o resultado será sobrescrito na próxima reforma!\n\nSempre trabalhe nos arquivos-fonte (.qmd e .yml)\n\nFaça as alterações nos “projetos originais” e deixe o Quarto refazer a construção"
+  },
+  {
+    "objectID": "blog/third-post/index.html#kit-básico-do-construtor-digital",
+    "href": "blog/third-post/index.html#kit-básico-do-construtor-digital",
+    "title": "Construindo seu site com Quarto: do alicerce ao acabamento",
+    "section": "🧰 Kit básico do construtor digital",
+    "text": "🧰 Kit básico do construtor digital\nAntes de colocar a mão na massa (ou melhor, no código!), você vai precisar do kit essencial para construir seu site com Quarto. Pense nisso como aquela lista de materiais que todo mestre de obras checa antes de começar uma construção.\n\n📦 O que você precisa?\nAntes de começar, confira sua lista de materiais essenciais:\n\n\n\n\n\n\n\n\nFerramenta\nEquivalente na Construção\nFunção\n\n\n\n\nR + RStudio\nGrua e central de comando\nSeu ambiente principal de trabalho\n\n\nGit\nArquivo de projetos atualizado\nControle de versão\n\n\nGitHub\nTerreno para construção\nHospedagem gratuita\n\n\n\n💡 Dica do Mestre de Obras: Git/GitHub parece complexo? É como aprender a usar um nível a laser - assustador no começo, mas vira segundo natureza. Confira este [guia básico] para começar.\nConfira meu post para começar."
+  },
+  {
+    "objectID": "blog/third-post/index.html#lançando-os-fundamentos",
+    "href": "blog/third-post/index.html#lançando-os-fundamentos",
+    "title": "Construindo seu site com Quarto: do alicerce ao acabamento",
+    "section": "🔨 Lançando os fundamentos",
+    "text": "🔨 Lançando os fundamentos\nVamos iniciar nossa obra em 3 etapas simples:\n\nPreparando o terreno:\n\nAbra o RStudio\nNo canto superior direito, clique no menu suspenso “Project: (None)”\n\n\n\n\n\n\n\n\n\n\n\n\nSelecione “New Project…” → “New Directory” → “Quarto Website\n\n\n\n\n\n\nAprovando o projeto:\n\nNomeie seu canteiro digital (ex: “site”)\nDefina o local da obra (pasta do computador)\n\nIniciando a construção:\n\nClique em “Create Project” e… obra iniciada!\n\n\n\n\n\n\nPronto!\nO RStudio criará automaticamente todos os arquivos básicos necessários para seu site Quarto.\n\n✅ Dica: Assim como um bom alicerce evita rachaduras, um nome bem definido evita retrabalhos futuros."
+  },
+  {
+    "objectID": "blog/third-post/index.html#estruturando-seu-prédio-digital",
+    "href": "blog/third-post/index.html#estruturando-seu-prédio-digital",
+    "title": "Construindo seu site com Quarto: do alicerce ao acabamento",
+    "section": "🏢 Estruturando seu prédio digital",
+    "text": "🏢 Estruturando seu prédio digital\nSeu projeto vem com a estrutura básica já organizada:\n\n\n\nComponente\nFunção\nImportância\n\n\n\n\nindex.qmd\nFachada principal\n⚠️ Nunca renomeie!\n\n\nabout.qmd\nÁrea institucional\nTotalmente personalizável\n\n\n_quarto.yml\nProjeto arquitetônico\nControla toda a estrutura\n\n\nstyles.css\nAcabamentos visuais\nOpcional, mas recomendo!\n\n\n_site/\nObra concluída\nNão edite manualmente!\n\n\n\n\n🚪 ️index.qmd️ sua fachada digital\nO arquivo index.qmd é a porta de entrada do seu site — ele define a primeira impressão que seus visitantes terão! ✨\n\nObrigatório: Mantenha sempre esse nome\nFlexível: Misture Markdown, HTML e código\n\n`index.qmd`\n---\ntitle: \"site\"\n---\n\n\n🛋️️` about.qmd: Sseu espaço personalizável\nSe o index.qmd é a porta de entrada do seu site, o about.qmd é aquele cômodo que você pode redecorar do zero! 🎨✨\nDiferente da página principal (que precisa manter o nome index.qmd), essa aqui é totalmente flexível – você pode:\n\nRenomeie como quiser (portfolio.qmd, servicos.qmd)\nCrie qualquer tipo de conteúdo\n\n\n\n🏗quarto.yml: o projeto executivo\nSe o seu site fosse uma casa, o _quarto.yml seria a planta arquitetônica que define toda a estrutura – desde os cômodos (páginas) até os acabamentos (temas e estilos). O _quarto.yml controla:\n\nEstrutura principal (menu de navegação, rodapé, barras laterais)\nAparência global (tema, cores, fontes)\nConfigurações técnicas (diretórios, plugins, comportamentos)\n\nPor padrão, o arquivo é segue esta estrutura:\n`quarto.yml`\nproject: \n  type: website\n\nwebsite:\n  title: \"mysite\"\n  navbar:\n    left:\n      - href: index.qmd\n        text: Home\n      - about.qmd\n\nformat:\n  html:\n    theme: cosmo\n    css: styles.css\n    toc: true\n\n\n🎨 styles.css: os acabamentos\nPense no styles.css como a caixa de tintas do seu site - é aqui que você define cores, fontes e todos os detalhes visuais que dão personalidade ao seu projeto. Enquanto o _quarto.yml cuida da estrutura, esse arquivo é responsável pelo visual!"
+  },
+  {
+    "objectID": "blog/third-post/index.html#a-pasta-_site-sua-obra-entregue",
+    "href": "blog/third-post/index.html#a-pasta-_site-sua-obra-entregue",
+    "title": "Construindo seu site com Quarto: do alicerce ao acabamento",
+    "section": "🚧 A pasta️ \\_site/️: sua obra entregue",
+    "text": "🚧 A pasta️ \\_site/️: sua obra entregue\nPense nela como o prédio pronto após a vistoria:\n\nContém toda a estrutura convertida para HTML\nNão edite manualmente! (será sobrescrito)\nAtualize sempre os arquivos-fonte e rode quarto render"
+  },
+  {
+    "objectID": "blog/third-post/index.html#a-pasta-_site-sua-obra-entregue-1",
+    "href": "blog/third-post/index.html#a-pasta-_site-sua-obra-entregue-1",
+    "title": "Construindo Seu Site com Quarto: do Alicerce ao Acabamento",
+    "section": "🚧 A Pasta _site/: Sua Obra Entregue",
+    "text": "🚧 A Pasta _site/: Sua Obra Entregue\nPense nela como o prédio pronto após a vistoria:\n\nContém toda a estrutura convertida para HTML\nNão edite manualmente! (será sobrescrito)\nAtualize sempre os arquivos-fonte e rode quarto render"
+  },
+  {
+    "objectID": "blog/third-post/index.html#próximos-passos-sua-obra-vai-ganhar-vida",
+    "href": "blog/third-post/index.html#próximos-passos-sua-obra-vai-ganhar-vida",
+    "title": "Construindo seu site com Quarto: do alicerce ao acabamento",
+    "section": "🚀 Próximos passos: sua obra vai ganhar vida!",
+    "text": "🚀 Próximos passos: sua obra vai ganhar vida!\nE agora? Você já tem o projeto aprovado, a estrutura levantada e os acabamentos definidos. Falta só o grande lançamento!\nNo próximo meu próximo post, vou te mostrar como: 🔍 Explorar cada um dos arquivos essenciais - entendendo a função de cada “peça” da sua construção digital ✨ Publicar seu site gratuitamente no GitHub Pages - seu “habite-se” digital\n✨ Publicar seu site gratuitamente no GitHub Pages - seu “habite-se” digital\n🌐 Registrar seu endereço profissional (seunome.github.io)"
+  },
+  {
+    "objectID": "blog/third-post/index.html#a-pasta-_sitessuaoobra-entregue",
+    "href": "blog/third-post/index.html#a-pasta-_sitessuaoobra-entregue",
+    "title": "Construindo seu site com Quarto: do alicerce ao acabamento",
+    "section": "🚧 A pasta️ \\_site/️:sSuaoObra entregue",
+    "text": "🚧 A pasta️ \\_site/️:sSuaoObra entregue\nPense nela como o prédio pronto após a vistoria:\n\nContém toda a estrutura convertida para HTML\nNão edite manualmente! (será sobrescrito)\nAtualize sempre os arquivos-fonte e rode quarto render"
   }
 ]

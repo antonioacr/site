@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.353">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Antonio Carlos Rodrigues - Construindo Seu Site com Quarto: o Alicerce</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script src="https://code.iconify.design/2/2.0.0-rc2/iconify.min.js"></script>
+
+
+<meta property="og:title" content="Antonio Carlos Rodrigues - Construindo Seu Site com Quarto: o Alicerce">
+<meta property="og:site-name" content="Antonio Carlos Rodrigues">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Antonio Carlos Rodrigues</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./blog/index.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Construindo Seu Site com Quarto: o Alicerce</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="section" class="level1">
+<h1></h1>
+<section id="o-quarto-seu-conjunto-completo-de-ferramentas-digitais" class="level2">
+<h2 class="anchored" data-anchor-id="o-quarto-seu-conjunto-completo-de-ferramentas-digitais">O Quarto: Seu Conjunto Completo de Ferramentas Digitais</h2>
+<p>Imagine que construir um site é como erguer uma casa. O <strong>Quarto</strong> seria seu conjunto completo de ferramentas e materiais de construção - um sistema de publicação versátil que permite criar desde simples documentos até sites complexos, assim como um bom kit de ferramentas serve tanto para fazer uma prateleira quanto construir uma casa inteira.</p>
+<p>Assim como na construção civil temos diferentes especialidades (alvenaria, elétrica, hidráulica), o Quarto suporta múltiplas “linguagens de obra”:</p>
+<ul>
+<li><p><strong>R</strong> (para análise de dados)</p></li>
+<li><p><strong>Python</strong> (para programação geral)</p></li>
+<li><p><strong>Julia</strong> (para computação científica)</p></li>
+<li><p><strong>ObservableJS</strong> (para visualizações interativas)</p></li>
+</ul>
+<p>Se você já usou <strong>RMarkdown</strong>, pode compará-lo a uma boa furadeira - funcional e confiável. O Quarto mantém essa qualidade, mas transforma sua caixa de ferramentas em uma oficina completa, adicionando suporte a mais linguagens e funcionalidades.</p>
+</section>
+<section id="materiais-necessários-para-sua-obra-digital" class="level2">
+<h2 class="anchored" data-anchor-id="materiais-necessários-para-sua-obra-digital">Materiais Necessários para Sua Obra Digital</h2>
+<p>Antes de começar sua “construção”, você precisará de:</p>
+<p>🛠️ <strong>Ferramentas básicas</strong>:</p>
+<ul>
+<li>R e RStudio instalados (a partir da versão 2022.07.1 já vem com Quarto incluso)</li>
+</ul>
+<p>🏗️ <strong>Equipamentos de obra</strong>:</p>
+<ul>
+<li><p>Conta no GitHub (sua “área de armazenamento de materiais” na nuvem)</p></li>
+<li><p>Git instalado (seu “sistema de controle de versão” para a obra)</p></li>
+</ul>
+<p>📌 <em>Dica de mestre de obras</em>: Se não conhece Git/GitHub, veja este <a href="https://antonioacr.github.io/site/blog/first-post/">guia básico de construção digital</a>.</p>
+</section>
+<section id="primeiro-passo-lançando-os-fundamentos" class="level2">
+<h2 class="anchored" data-anchor-id="primeiro-passo-lançando-os-fundamentos">Primeiro Passo: Lançando os Fundamentos</h2>
+<p>No RStudio (sua “central de construção”), siga estes 3 passos simples:</p>
+<ol type="1">
+<li><p><strong>Preparar o terreno</strong>:</p>
+<ul>
+<li><p>Abra o RStudio</p></li>
+<li><p>Clique em “Project: (None)” &gt; “New Project…” &gt; “New Directory” &gt; “Quarto Website”</p></li>
+</ul></li>
+<li><p><strong>Definir a planta baixa</strong>:</p>
+<ul>
+<li><p>Nomeie seu projeto (sua “obra”):</p>
+<ul>
+<li><p>Para sites públicos: <strong>SeuUsuarioGitHub.github.io</strong> (sua “fachada digital”)</p></li>
+<li><p>Para testes: use um nome descritivo como “meu-site-teste”</p></li>
+</ul></li>
+<li><p>Escolha o local da obra (pasta do computador)</p></li>
+</ul></li>
+<li><p><strong>Iniciar a construção</strong>:</p>
+<ul>
+<li>Clique em “Create Project” e… voilà! Seu “canteiro de obras digital” está pronto.</li>
+</ul></li>
+</ol>
+<p><em>Dica profissional</em>: Assim como na construção civil, um bom nome desde o início evita retrabalhos depois!</p>
+</section>
+<section id="conhecendo-seu-canteiro-de-obras-digital" class="level2">
+<h2 class="anchored" data-anchor-id="conhecendo-seu-canteiro-de-obras-digital">Conhecendo Seu Canteiro de Obras Digital</h2>
+<p>Ao criar o projeto, você recebe automaticamente todos os “materiais básicos”:</p>
+<section id="plantas-e-projetos-arquivos-principais" class="level3">
+<h3 class="anchored" data-anchor-id="plantas-e-projetos-arquivos-principais">📐 Plantas e Projetos (Arquivos Principais)</h3>
+<ul>
+<li><p><strong>index.qmd</strong>: Sua “porta de entrada” (não renomeie!)</p></li>
+<li><p><strong>about.qmd</strong>: Seu “cartão de visitas” (personalizável)</p></li>
+</ul>
+</section>
+<section id="estrutura-e-acabamento-configurações" class="level3">
+<h3 class="anchored" data-anchor-id="estrutura-e-acabamento-configurações">🏗️ Estrutura e Acabamento (Configurações)</h3>
+<ul>
+<li><p><strong>_quarto.yml</strong>: A “planta arquitetônica” do seu site</p></li>
+<li><p><strong>styles.css</strong>: Seu “catálogo de acabamentos” (cores, fontes)</p></li>
+</ul>
+</section>
+<section id="área-de-serviço-sistema" class="level3">
+<h3 class="anchored" data-anchor-id="área-de-serviço-sistema">🚧 Área de Serviço (Sistema)</h3>
+<ul>
+<li><p><strong>.gitignore</strong>: Lista de “materiais que não entram na obra”</p></li>
+<li><p><strong>_site/</strong>: A “obra pronta” (não edite manualmente!)</p></li>
+</ul>
+</section>
+</section>
+<section id="visualizando-sua-obra-em-tempo-real" class="level2">
+<h2 class="anchored" data-anchor-id="visualizando-sua-obra-em-tempo-real">Visualizando Sua Obra em Tempo Real</h2>
+<p>Assim como um arquiteto visualiza sua maquete, no RStudio você pode:</p>
+<ol type="1">
+<li><p>Localizar o botão <strong>“Render”</strong> (seu “visor de projeto”)</p></li>
+<li><p>Clicar em <strong>“Render Website”</strong> para ver a prévia</p></li>
+<li><p>Acompanhar as mudanças <strong>instantaneamente</strong> ao salvar</p></li>
+</ol>
+<p><em>Vantagens</em>:</p>
+<ul>
+<li><p>Tudo integrado em um único “canteiro de obras” (RStudio)</p></li>
+<li><p>Atualizações em tempo real (sem precisar de “parar a obra”)</p></li>
+<li><p>Identificação imediata de “problemas na construção”</p></li>
+</ul>
+</section>
+<section id="próximos-passos-na-sua-construção-digital" class="level2">
+<h2 class="anchored" data-anchor-id="próximos-passos-na-sua-construção-digital">Próximos Passos na Sua Construção Digital</h2>
+<p>Agora que você tem:<br>
+✔ O terreno preparado<br>
+✔ Os materiais básicos<br>
+✔ A planta arquitetônica</p>
+<p>Está pronto para:</p>
+<ol type="1">
+<li><p>Personalizar os “ambientes” (páginas do site)</p></li>
+<li><p>Ajustar a “fachada” (design e navegação)</p></li>
+<li><p>Assentar o “piso” (conteúdo principal)</p></li>
+</ol>
+<p>Lembre-se: Assim como na construção civil, todas as alterações devem ser feitas nos <strong>arquivos-fonte</strong> (.qmd e .yml), nunca diretamente na pasta _site/ (sua “obra pronta”)!</p>
+<p>Quer começar a construir? Seu “kit de ferramentas” Quarto já está esperando! 🚀</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">Made with RStudio <iconify-icon role="img" inline="" icon="file-icons:rstudio" aria-label="Icon rstudio from file-icons Iconify.design set." title="Icon rstudio from file-icons Iconify.design set."></iconify-icon> and Quarto <a href="https://quarto.org/"><iconify-icon role="img" inline="" icon="simple-icons:quarto" aria-label="Icon quarto from simple-icons Iconify.design set." title="Icon quarto from simple-icons Iconify.design set."></iconify-icon></a></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

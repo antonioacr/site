@@ -13,7 +13,9 @@ website:
       #- href: publications.qmd
 format:
   html:
-    theme: [cosmo, styles.scss]
+    theme:
+      light: [cosmo, styles.scss]
+      dark: [cosmo, theme-dark.scss]
     include-in-header:
       - text: "<script src='https://code.iconify.design/2/2.0.0-rc2/iconify.min.js'></script>"
 
