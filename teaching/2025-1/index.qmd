@@ -1,5 +1,8 @@
 ---
 title: "Projeto Canguru"
+author: "Antonio Rodrigues"
+date: "05/16/2025"
+image: "canguru.jpg"
 ---
 
 Slides ([clique aqui](https://docs.google.com/presentation/d/1uXNTMw11biBazJ59LQN6OSVW8_bQKbOTgCbGcOTAea8/edit?slide=id.p25#slide=id.p25))

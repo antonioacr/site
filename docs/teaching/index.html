@@ -73,9 +73,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -98,6 +98,7 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <meta property="og:title" content="Antonio Carlos Rodrigues - Teaching">
+<meta property="og:image" content="../teaching/2025-1/canguru.jpg">
 <meta property="og:site-name" content="Antonio Carlos Rodrigues">
 </head>
 
@@ -125,6 +126,10 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="../blog/index.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../teaching/index.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Teaching</span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
@@ -165,10 +170,12 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1747432507616" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1747364400000" data-listing-file-modified-sort="1747433319705" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../teaching/2025-1/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<p class="card-img-top">
+<img src="../teaching/2025-1/canguru.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Projeto Canguru
@@ -176,9 +183,12 @@ Projeto Canguru
 <div class="card-text listing-description">
 Slides (clique aqui)
 </div>
-<div class="card-attribution card-text-small start">
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
-
+Antonio Rodrigues
+</div>
+<div class="listing-date">
+May 16, 2025
 </div>
 </div>
 </div>
