@@ -333,7 +333,7 @@
     "href": "teaching/index.html",
     "title": "Teaching",
     "section": "",
-    "text": "Gestão de Operações 2\n\n\nUniversidade Federal de Juiz Fora\n\n\n\nAntonio Rodrigues\n\n\nJan 1, 2025\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Projeto Canguru\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/second-post/index.html#r-for-data-science",
@@ -824,5 +824,12 @@
     "title": "Construindo seu site com Quarto: do alicerce ao acabamento",
     "section": "🚧 A pasta️ \\_site/️:sSuaoObra entregue",
     "text": "🚧 A pasta️ \\_site/️:sSuaoObra entregue\nPense nela como o prédio pronto após a vistoria:\n\nContém toda a estrutura convertida para HTML\nNão edite manualmente! (será sobrescrito)\nAtualize sempre os arquivos-fonte e rode quarto render"
+  },
+  {
+    "objectID": "teaching/2025-1/index.html",
+    "href": "teaching/2025-1/index.html",
+    "title": "Projeto Canguru",
+    "section": "",
+    "text": "Slides (clique aqui)\nPlanilha de atribuições (clique aqui)"
   }
 ]
