@@ -2,6 +2,6 @@
 title: Teaching
 listing: 
   contents: /
-  type: grid
+  type: table
  
 ---
